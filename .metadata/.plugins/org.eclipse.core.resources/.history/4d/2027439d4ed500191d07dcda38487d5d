@@ -1,0 +1,159 @@
+package 클래스;
+
+public class 연습 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			System.out.println(""
+					+ "eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"eeeeeEeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"eeeeeXWeeeeeeeeGeeeeeeeeeeeeee\r\n" + 
+					"eeeeeeu eeeezDeeeDeeeeeeeeeeee\r\n" + 
+					"eeeeeee uGeeW ,K Eeeeeeez#eeee\r\n" + 
+					"eeeeEu,eu eW,yDX eeeeeu zeeeee\r\n" + 
+					"eeeezKyee  X##z ,5Xy  Keeeeeee\r\n" + 
+					"eeeeEK5eee  55   y5  Geeeeeeee\r\n" + 
+					"eeeeeE5u            yeeeeeeeee\r\n" + 
+					"eeeeee Gy         u55 Eeeeeeee\r\n" + 
+					"eeeeee D#,        u#eeeeeeeeee\r\n" + 
+					"eeeeeee5D9z          uEeeeeeee\r\n" + 
+					"eeeeeeez,5yeu        Weeeeeeee\r\n" + 
+					"eeeeeeee    K9   yeeeGKy9eeeee\r\n" + 
+					"eeeeee  #eeK W9GK 9ee#eeeeeeee\r\n" + 
+					"eeeey 9eeee eee#ez #eeeeeeeeee\r\n" + 
+					"eeeEGeeeee5 eeeeee# XeGGeeeeee\r\n" + 
+					"eeeeeeeeee5eeeeeeeeG Eeeeeeeee\r\n" + 
+					"eeeeeeeeeeeeeeeeeeeeG,Geeeeeee\r\n" + 
+					"eeeeeeeeeeeeeeeeeeeeeeEeeeeeee\r\n" + 
+					"eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"");
+			Thread.sleep(100);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		try {
+			System.out.println(""
+					+ "eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"eeeeeeeeeeeeD ,e eeeeeeeeeeeee\r\n" + 
+					"eeeee#5 uuWy#    Xu   #eeeeeee\r\n" + 
+					"eeeeeK,EeEe WX##D5eeEW Eeeeeee\r\n" + 
+					"eeeeeXEee5,###DDX yXEeEXeeeeee\r\n" + 
+					"eeeee#Xey X5X u X9E5#eeGGeeeee\r\n" + 
+					"eeeeeeeXuXz  Duuy  yK99eeeeeee\r\n" + 
+					"eeee5 #X#y        X5#D  eeeeee\r\n" + 
+					"eeeeeX#ezX        XDeeueeeeeee\r\n" + 
+					"eeeeDXeu 9W        Xuez,eeeeee\r\n" + 
+					"eeeDXeeEXX      ,XX Xee,ueeeee\r\n" + 
+					"eeGDeeeXW,5z Gez uGeeee5,Eeeee\r\n" + 
+					"eezeeeeEeeKyy  We 9eeeDu Weeee\r\n" + 
+					"eeGeeeeeeeeeeeeeeeuyD5uK9eeeee\r\n" + 
+					"eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"");
+			Thread.sleep(150);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		try {
+			System.out.println(""
+					+ "eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"eeeeeeeeeeeee  u eeeeeeeeeeeee\r\n" + 
+					"eeeeeeeXyyu   KK9eEXyKzEeeeeee\r\n" + 
+					"eeeeeeDeeeeDy5XX, zeGy  Geeeee\r\n" + 
+					"eeeeeEeeee,zXDzzy X#eee 9eeeee\r\n" + 
+					"eeeeeE9X  5Xy uWyyeeeee eeeeee\r\n" + 
+					"eeeeeeeeE5Kyuz55X,W XeK Eeeeee\r\n" + 
+					"eeey XeeEyWz     uyXeXz Xeeeee\r\n" + 
+					"eeeeeeeuyX5u     y#X Eeeeeeeee\r\n" + 
+					"eeeeeee uWKW    ,yyW Ge9eeeeee\r\n" + 
+					"eeee#eee9WuKyuX WyKuDeeKEeeeee\r\n" + 
+					"eeeeyeeee9yDWE#XK,DeeeeEKeeeee\r\n" + 
+					"eeee GeeeeeEu  KGeeeeeeX eeeee\r\n" + 
+					"eeeez      KG9zee#KKWK  Keeeee\r\n" + 
+					"eeeeee5#Geeeeeeeeeee9z9eeeeeee\r\n" + 
+					"eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"");
+			Thread.sleep(200);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		try {
+			System.out.println(""
+					+ "eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"eeeeeeeeeeee#   ueeeeeeeeeeeee\r\n" + 
+					"eeeeeeeEED9  uWWE#e#eeeeeeeeee\r\n" + 
+					"eeeeeeeeeeeeXXDXK eee9KGeeeeee\r\n" + 
+					"eeeeeGeee# uXz#9zKz#ee9yeeeeee\r\n" + 
+					"eeeeeGeD ,5DXKKuuW5eeeE eeeeee\r\n" + 
+					"eeeeeeeee9KzzXWDzzX #eKX#eeeee\r\n" + 
+					"eeeKWeee55y5 ,   KzDEeeezeeeee\r\n" + 
+					"eeeeeee yWy ,KKu XyDWWeeeeeeee\r\n" + 
+					"eeeeGeeuyD5u u,, X,55 eeeeeeee\r\n" + 
+					"eeee eee9K K,uW  KuyKGeeeeeeee\r\n" + 
+					"eeey,eeee9WWK55yW55#eeeG5eeeee\r\n" + 
+					"eeeu eeeeeeGG9eeeeeeeeeeeeeeee\r\n" + 
+					"eeeE     ,Xee9zeeXuuyWWyEeeeee\r\n" + 
+					"eeeeeeeeeeeeeeeeeeeGeeeeeeeeee\r\n" + 
+					"eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"");
+			Thread.sleep(250);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		try {
+			System.out.println(""
+					+ "eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"eeeeeeeeeee95uWuGeeeeeeeeeeeee\r\n" + 
+					"eeeeeeeeeeeEzXDXz5eEeeeeeeeeee\r\n" + 
+					"eeeeeeeeeeeEXz##X,eeeeEeeeeeee\r\n" + 
+					"eeeeeeeeeXKX##999EEeeeezeeeeee\r\n" + 
+					"eeeeeeeE5#zzDXXX5X5DeeE5eeeeee\r\n" + 
+					"eeeeeeeeez5XzDDzDDXX#eXEGeeeee\r\n" + 
+					"eee9eeeGzDDXXX555z5DXeeeeeeeee\r\n" + 
+					"eeeeeeeWz#DX5XXX5z5XDXeeeeeeee\r\n" + 
+					"eeeeEEe5DXX55555yDz#DXeeeeeeee\r\n" + 
+					"eee9 eee9DDX55DyyXzDXEeeeeeeee\r\n" + 
+					"eeeG eeeeXXXX##yX##eeeee#eeeee\r\n" + 
+					"eeee GeeeeGGEDzeeeeeeeeeeeeeee\r\n" + 
+					"eeeeezEEXeeeeeeeezXXX99eGeeeee\r\n" + 
+					"eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\r\n" + 
+					"");
+			Thread.sleep(300);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		try {
+			Thread.sleep(100);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+}
+}

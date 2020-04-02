@@ -1,0 +1,49 @@
+package 클래스;
+
+public class 연습 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println(""
+				+ "                        zWW             \r\n" + 
+				"                     yeeGEeeee          \r\n" + 
+				"                     eE#99z9eee         \r\n" + 
+				"                     eeeWeXe5ee    G    \r\n" + 
+				"                    Eee    e  ee WeX    \r\n" + 
+				"                    eee 5,ee   eeeD     \r\n" + 
+				"                   Ee XXeeGee  eeD      \r\n" + 
+				"                  Xe5 eG5yGDeee  ee,    \r\n" + 
+				"                 EeDe eEEeeXee    9ee   \r\n" + 
+				"                zee e 9zXG zee     zee  \r\n" + 
+				"                eG# e #E#e9 eGe D   zee \r\n" + 
+				"               9ee 9e  eeee   Wz     eE9\r\n" + 
+				"               eE#We e  #y,    ,     9EG\r\n" + 
+				"               ee e  eGD5  ee  u     e#e\r\n" + 
+				"               DeDeeeeeeeeeeEee       ee\r\n" + 
+				"                eeeeeeeeeGE55yW D     e \r\n" + 
+				"                 ,,     ,uXK  ueX    #D \r\n" + 
+				"                ee e#zE9X 9W            \r\n" + 
+				"               eK  D5u5K  #             \r\n" + 
+				"             Xe     9yDWD#D             \r\n" + 
+				"           Wee      E5DKWe              \r\n" + 
+				"          u#eX      K#XyWe              \r\n" + 
+				"          Deey       9XDX5,             \r\n" + 
+				"       zeeeu          #XX #             \r\n" + 
+				"    KeezD             9D5yz       X     \r\n" + 
+				"5eee   eeu             K 5     WeX      \r\n" + 
+				" eee9e Weeee,,        eeWEe9eee9        \r\n" + 
+				"   WeeeD5Geeeeeeeeeeeeee#9eee           \r\n" + 
+				"       W#eee#GGGeeGeeeezeeGu            \r\n" + 
+				"             u,,y Kuu   ,z              \r\n" + 
+				"                       ezXe             \r\n" + 
+				"                      y eee             \r\n" + 
+				"                     eG#9u              \r\n" + 
+				"");
+		
+}
+	public static void clearScreen() {
+		for (int i = 0; i < 80; i++)
+			System.out.println("");
+	}
+}

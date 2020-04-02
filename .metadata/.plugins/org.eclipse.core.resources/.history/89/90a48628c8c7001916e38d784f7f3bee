@@ -1,0 +1,65 @@
+package 자바3주차;
+
+import java.util.Scanner;
+
+public class 도형과제 {
+
+	public static void main(String[] args) {
+
+		System.out.println("마름모의 크기를 정수로 입력하세요 .");
+		System.out.print("입력 : ");
+		
+		Scanner sc = new Scanner(System.in);
+		
+		String Rhombus = sc.nextLine();
+		
+		int Rhombus_Num = Integer.parseInt(Rhombus); //Rhombus = 마름모
+		
+		Rhombus_Num+=1;
+		
+		for(int Tri_First = 0 ; Tri_First<Rhombus_Num ; Tri_First++) //마름모 삼각형 Triangle
+		{
+			for(int Tri_Second =Rhombus_Num ; Tri_Second>Tri_First; Tri_Second--) //Tri_First for문 안의 중첩포문 Tri_Second
+			{
+				System.out.print(" ");
+			}
+			
+			for(int Tri_Third = 0 ; Tri_Third<Tri_First ; Tri_Third++) // Tri_First for문 안의 중첩포문 Tri_Third
+			{
+				System.out.print(".");
+			}
+			
+			for(int Tri_Four = 0 ;Tri_Four<Tri_First ; Tri_Four++) // Tri_First for문 안의 중첩포문 Tri_Four
+			{
+				System.out.print(".");
+			}
+			System.out.println(".");
+		}
+
+		for (int Rev_First = 0 ; Rev_First<Rhombus_Num-1 ; Rev_First++) //마름모 역삼각형 Reverse Triangle
+		{		System.out.print(" ");
+		
+			for (int Rev_Second = 0 ; Rev_Second<=Rev_First ; Rev_Second++) // Rev_First for문 안의 중첩포문 Second
+																															
+			{
+				System.out.print(" ");
+			}
+			for(int Rev_Third = Rhombus_Num-2 ; Rev_Third>Rev_First ; Rev_Third--) // Third
+			{
+				System.out.print(".");
+			}
+			for(int Rev_Four = Rhombus_Num-2 ; Rev_Four>Rev_First ; Rev_Four--) // Four
+			{
+				System.out.print(".");
+			}
+		
+			System.out.println(".");
+		}
+		
+		System.out.println("별의 크기를 정수로 입력하세요 .");
+		System.out.print("입력 : ");
+		
+		
+	}
+
+}

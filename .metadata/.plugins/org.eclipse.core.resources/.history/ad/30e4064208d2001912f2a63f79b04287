@@ -1,0 +1,16 @@
+package 클래스;
+
+import java.util.Scanner;
+
+public class 연습2 {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+		
+		MyThread t1 = new MyThread();
+		t1.start();
+		t1.run2();
+		
+}
+}

@@ -1,0 +1,105 @@
+package 클래스;
+
+public class 연습 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+		System.out.println(""
+				+ "                               				          GD               \r\n" + 
+				"                                                         ,XXe              \r\n" + 
+				"                                                         zu eX             \r\n" + 
+				"                                         XX              9u Xe   5e        \r\n" + 
+				"                                        G5eG             Eu,uEe  ze        \r\n" + 
+				"                  y9                   5D WeW            e,uuXezX z9       \r\n" + 
+				"                  e#eu                 euuuDe            e,,uK#9E ye       \r\n" + 
+				"                 ,X 9e9               eK,uuuGD      KeX  e,,uK5zE ,e       \r\n" + 
+				"                 E,,W9Ge             ,#,uuKuXe      zuXeuE uuuuzD#Ke       \r\n" + 
+				"                 e uuX#Ee     ,u#XXDue5   uuueX     zK,y9eX  uWzXXDEe      \r\n" + 
+				"                 e uuK9eezeGeGez      eGGE9W De     Ku,uuDEe9#zXX9ED5G#    \r\n" + 
+				"                 e ,uE5  W  zX    ,,  Wu,KzGEee    5e5,uuu5zXXXXey uKW5eu  \r\n" + 
+				"                 e,EeK   zuDK  ,,,,,,     uy, EE u5zu5WyWKuXDXXe,uWyyyWyEW \r\n" + 
+				"                 e#y      ey  ,,,          X5WKXG EuKWWWWWuzDXe uWyyyyyWye \r\n" + 
+				"                 e           ,,,, ,Eee     ,XyWWKeK,KWWyWKuzXEWuWyyyyyyyWyy\r\n" + 
+				"                G  zE  ,,,,,,,,,, D  ee     XyyyKKE,WWWWWKKzXe WyyyyyyyyWu#\r\n" + 
+				"               uu X  e ,,,,,,,,,, e Weee ,  XWuKWue uKWWWKyz95uyyyyyyyyWKyX\r\n" + 
+				"               D  eeee ,,,,,,,,,, eeeeEe    W9zDu,9WKWyWWKXDe WyyyyyyyyK5Dz\r\n" + 
+				"               D  eeee ,           eeee9   XEX55e #WKWWWKKXDE,yyyyyyyyWue X\r\n" + 
+				"               W  eee    X u,  W          e XX5We e WWWWKKDGWuyyyyyyyWu9WKy\r\n" + 
+				"               G#,     9GK, XeGe  ,      e  DX5WG e WWWWKWDe WyyyyyyyKuG,9 \r\n" + 
+				"                W5D  ,   eGEEz5e  ,,,,, uz KD5yKz9XuWWWWu5DG yyyyyyyWuGuKe \r\n" + 
+				"                #WyX  ,   e5XzDe  ,,,   9  XXyW#59WuWWWKuzD#,yyyyyyyKuGu#W \r\n" + 
+				"                 XD#,  ,   EEz#e  ,,  , # yzGezeeXWKWWWuyDE5KyyyyyyyuG,yG  \r\n" + 
+				"                   Xe        uu  ,,, ,,  ee#    e5yKWWKu#Xe WyyyyyyKuGKe   \r\n" + 
+				"                     WX55        ,,, ,, yGX   u eX5uWKuDz5e yyyyyyyuGWe    \r\n" + 
+				"                       uuee#  ,,,,,,     uzDzzy9y#5 ,uX#D5e yyyyyyWyeD     \r\n" + 
+				"                      9K      ,,,,,,,,,   uDyWyz5eG5WXzDXXE yyyyyWye       \r\n" + 
+				"                      WeW   X   ,,,,,,,,   5yWWK, ue#DDXXD#uyyyyWWG,       \r\n" + 
+				"                        Xeeee,     ,,,     XyyyyyWK e9EEzeuKyyyyW#X        \r\n" + 
+				"                            ueu           X5yyyyyyWKXu yze,KyyyWX9         \r\n" + 
+				"                             #DDXK     uyDXyyyyyWKuKW     GuyyW5e          \r\n" + 
+				"                              ey5XDzzzzD5yyyyyyWKKGzK5y  ueuyW5e           \r\n" + 
+				"                              KGyWyyyyyyyyyyyWKuDE,X###EE9XKyXe            \r\n" + 
+				"                                eDyWWyyyyyWWKuX95KKKKKKKuKKyE#             \r\n" + 
+				"                                 WGe5WuuuKKDEeDuKWyyyyyWW5#e               \r\n" + 
+				"                                     eEG#zEW  XezX555XXze9,                \r\n" + 
+				"                                    y  WWue     u5D#zXy,                   \r\n" + 
+				"                                    W#  yXG                                \r\n" + 
+				"                                     EKueK                                 \r\n" + 
+				"");
+		
+		Thread.sleep(300);
+	} catch (Exception e) {
+		// TODO: handle exception
+	}
+		
+		try {
+			System.out.println(""
+					+ "                                           GD               \r\n" + 
+					"                                           ,XXe              \r\n" + 
+					"                                           zu eX             \r\n" + 
+					"                           XX              9u Xe   5e        \r\n" + 
+					"                          G5eG             Eu,uEe  ze        \r\n" + 
+					"    y9                   5D WeW            e,uuXezX z9       \r\n" + 
+					"    e#eu                 euuuDe            e,,uK#9E ye       		 ee\r\n" + 
+					"   ,X 9e9               eK,uuuGD      KeX  e,,uK5zE ,e       		eeeeeeeeeeeeeeeee\r\n" + 
+					"   E,,W9Ge             ,#,uuKuXe      zuXeuE uuuuzD#Ke       		 ee\r\n" + 
+					"   e uuX#Ee     ,u#XXDue5   uuueX     zK,y9eX  uWzXXDEe      \r\n" + 
+					"   e uuK9eezeGeGez      eGGE9W De     Ku,uuDEe9#zXX9ED5G#    \r\n" + 
+					"   e ,uE5  W  zX    ,,  Wu,KzGEee    5e5,uuu5zXXXXey uKW5eu  \r\n" + 
+					"   e,EeK   zuDK  ,,,,,,     uy, EE u5zu5WyWKuXDXXe,uWyyyWyEW \r\n" + 
+					"   e#y      ey  ,,,          X5WKXG EuKWWWWWuzDXe uWyyyyyWye 		 ee\r\n" + 
+					"   e           ,,,, ,Eee     ,XyWWKeK,KWWyWKuzXEWuWyyyyyyyWyy       eeeeeeeeeeeeeeeee\r\n" + 
+					"  G  zE  ,,,,,,,,,, D  ee     XyyyKKE,WWWWWKKzXe WyyyyyyyyWu#        ee\r\n" + 
+					" uu X  e ,,,,,,,,,, e Weee ,  XWuKWue uKWWWKyz95uyyyyyyyyWKyX\r\n" + 
+					" D  eeee ,,,,,,,,,, eeeeEe    W9zDu,9WKWyWWKXDe WyyyyyyyyK5Dz\r\n" + 
+					" D  eeee ,           eeee9   XEX55e #WKWWWKKXDE,yyyyyyyyWue X\r\n" + 
+					" W  eee    X u,  W          e XX5We e WWWWKKDGWuyyyyyyyWu9WKy		 ee\r\n" + 
+					" G#,     9GK, XeGe  ,      e  DX5WG e WWWWKWDe WyyyyyyyKuG,9        eeeeeeeeeeeeeeeee\r\n" + 
+					"  W5D  ,   eGEEz5e  ,,,,, uz KD5yKz9XuWWWWu5DG yyyyyyyWuGuKe         ee\r\n" + 
+					"  #WyX  ,   e5XzDe  ,,,   9  XXyW#59WuWWWKuzD#,yyyyyyyKuGu#W \r\n" + 
+					"   XD#,  ,   EEz#e  ,,  , # yzGezeeXWKWWWuyDE5KyyyyyyyuG,yG  \r\n" + 
+					"     Xe        uu  ,,, ,,  ee#    e5yKWWKu#Xe WyyyyyyKuGKe   \r\n" + 
+					"       WX55        ,,, ,, yGX   u eX5uWKuDz5e yyyyyyyuGWe    		 ee\r\n" + 
+					"         uuee#  ,,,,,,     uzDzzy9y#5 ,uX#D5e yyyyyyWyeD            eeeeeeeeeeeeeeeee\r\n" + 
+					"        9K      ,,,,,,,,,   uDyWyz5eG5WXzDXXE yyyyyWye               ee\r\n" + 
+					"        WeW   X   ,,,,,,,,   5yWWK, ue#DDXXD#uyyyyWWG,       \r\n" + 
+					"          Xeeee,     ,,,     XyyyyyWK e9EEzeuKyyyyW#X        \r\n" + 
+					"              ueu           X5yyyyyyWKXu yze,KyyyWX9      			   \r\n" + 
+					"               #DDXK     uyDXyyyyyWKuKW     GuyyW5e          		 ee\r\n" + 
+					"                ey5XDzzzzD5yyyyyyWKKGzK5y  ueuyW5e                  eeeeeeeeeeeeeeeee\r\n" + 
+					"                KGyWyyyyyyyyyyyWKuDE,X###EE9XKyXe                    ee\r\n" + 
+					"                  eDyWWyyyyyWWKuX95KKKKKKKuKKyE#             \r\n" + 
+					"                   WGe5WuuuKKDEeDuKWyyyyyWW5#e               \r\n" + 
+					"                       eEG#zEW  XezX555XXze9,                \r\n" + 
+					"                      y  WWue     u5D#zXy,                   \r\n" + 
+					"                      W#  yXG                                \r\n" + 
+					"                       EKueK                                 \r\n" + 
+					"");
+			
+			Thread.sleep(600);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+}
+}

@@ -1,0 +1,122 @@
+package 클래스;
+
+public class 연습 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			System.out.println(""
+					+ " \r\n" + 
+					"   ,e                       \r\n" + 
+					"   Keee                     \r\n" + 
+					"    yeze   eeeeee           \r\n" + 
+					"     eu#eeee uK e     eee   \r\n" + 
+					"   eeWGy eXuyD5 eK Keeeeu   \r\n" + 
+					"   e5yee  X##z u#ee9 eE     \r\n" + 
+					"   e#yeee  yy   5y ,ee      \r\n" + 
+					"    e9u            XeK      \r\n" + 
+					"    yXEX         KDX z      \r\n" + 
+					"    eeXzK        uzee,      \r\n" + 
+					"     e9zz9          #e      \r\n" + 
+					"     Weuy,E5       W5eW     \r\n" + 
+					"     5e     EK  Weeeeeee    \r\n" + 
+					"   ,ezEeeey,GeeD ze         \r\n" + 
+					"  eeee5  e eyeeee ee        \r\n" + 
+					"  eG     eeE    Xe eeeW     \r\n" + 
+					"        5ee       e e       \r\n" + 
+					"                   eee      \r\n" + 
+					"                    #e");
+			Thread.sleep(100);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		try {
+			System.out.println(""
+					+ "            W9DGX             \r\n" + 
+					"     WGeeeeee5yXXezeee5       \r\n" + 
+					"     eeeeee,y5DDz#GeeeeW      \r\n" + 
+					"     9e  DKDz999X X9  G#      \r\n" + 
+					"     We ezWDz u D999e  X      \r\n" + 
+					"      EEW5#  Dy,5 uy#e  u     \r\n" + 
+					"    Eu#Ezy,       KyDEXe      \r\n" + 
+					"    yzee9W       WzDeGX5      \r\n" + 
+					"     eXe Ey        XWe9e      \r\n" + 
+					"   ,e  e#z      uXWWGeeDe     \r\n" + 
+					"   e   eeWXz Eez yEeE e#De    \r\n" + 
+					"  E    yzeeeGW,ee5e5  e#ze    \r\n" + 
+					"           K5#Dy #eeeeeeGK    \r\n" + 
+					"                   u   ");
+			Thread.sleep(150);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		try {
+			System.out.println(""
+					+ "           Geeee           \r\n" + 
+					"        yeeeX,WDe   uu     \r\n" + 
+					"     eeeee ,uyy9eeeeGeee   \r\n" + 
+					"     9  5ee5Dzz  yeXe#ueX  \r\n" + 
+					"    eezeEKyDuyXD5ee  e,e   \r\n" + 
+					"      euK5KWX5yW,yEe5eDe   \r\n" + 
+					"  ,#u Xe5Kz y,WWKXyeee     \r\n" + 
+					"  uu  ezXyy    uuXXXEX     \r\n" + 
+					"     e5K5Wu     yXW ee     \r\n" + 
+					"   z  eeX uu W W5WXeeDeE   \r\n" + 
+					"  5e,  eeyX5EEXWyeee  ee   \r\n" + 
+					"  eeee5 eeGuKK#ee    9eeD  \r\n" + 
+					"   e,5#X5Xeeeee eeeeeeXee  \r\n" + 
+					"   Keeeeeeu      #eeeee9");
+			Thread.sleep(200);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		try {
+			System.out.println(""
+					+ "          uee#D            \r\n" + 
+					"          eeDD9eu           \r\n" + 
+					"      zeeeXuKyyGeee z       \r\n" + 
+					"        ,eeXDDXu e  ee9     \r\n" + 
+					"    u  eeuKXDz#zWee  ee     \r\n" + 
+					"      eeyXDXWWKKyXe  ee     \r\n" + 
+					"       e#WDz5KXzzXXeeeW     \r\n" + 
+					"  ,   e9yyW ,,  yzDEG       \r\n" + 
+					"     #eXy5,,KKu,XWDye5      \r\n" + 
+					"   ee eEDyu  , ,5,XXeG      \r\n" + 
+					"  eGe  eE,WuKW ,uW9ee       \r\n" + 
+					"  eye   e5yXeeeeeee   ,     \r\n" + 
+					"  e eeD eeeeKW, z    5e     \r\n" + 
+					"  eeeeeeee      eeeeeee     \r\n" + 
+					"                  y  ");
+			Thread.sleep(250);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		try {
+			System.out.println(""
+					+ "            5               \r\n" + 
+					"            eeeee             \r\n" + 
+					"           zeDDDeeG           \r\n" + 
+					"           eEz#zXXe           \r\n" + 
+					"         eeG9#EE9Geu   E      \r\n" + 
+					"        ee#zzXXDXXEeu Ge      \r\n" + 
+					"        WE5XzzzzXDD9e ee      \r\n" + 
+					"        e9XXD5yyXzXzeX        \r\n" + 
+					"      ,ee#z55XXX5z5X9e        \r\n" + 
+					"    ,z eGXXy5XXXyzD#9e        \r\n" + 
+					"   Dee  eEDXy5XW5X9eee        \r\n" + 
+					"   ee   yee9z9E#eeee          \r\n" + 
+					"    ee   yeeeeee5             \r\n" + 
+					"    5eeXe    yu  eeee9        \r\n" + 
+					"        K         ,9e   ");
+			Thread.sleep(300);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		try {
+			Thread.sleep(100);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+}
+}

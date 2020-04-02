@@ -1,0 +1,24 @@
+package 자바3주차;
+
+public class 연습4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int x = 0;
+		int y = 0;
+		int a = 0;
+		int b = 0;
+		String[][] Circle = new String[x][y];
+		String[][] Circle2 = new String[a][b];
+		
+		for (a=0 ; a< Circle2.length ; a++)
+		{
+			for (b=0; b< Circle2.length ; b++)
+			{
+				System.out.println(Circle[a][b]);
+			}
+		}
+		
+	}
+}

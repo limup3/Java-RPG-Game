@@ -1,0 +1,23 @@
+package 클래스;
+
+import java.util.Scanner;
+
+public class 연습2 {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+
+
+		clearScreen();
+		System.out.println("당신은 소환수를 고를수있습니다.");
+		System.out.println("소환수는 총 3마리입니다.");
+		System.out.println("소환수에 대한 설명을 들으시겠습니까?");
+		System.out.println("1. 듣는다 / 2. 안듣겠다.");	
+		
+//		MyThread t1 = new MyThread();
+//		t1.run();
+//		t1.run2();
+		
+}
+}

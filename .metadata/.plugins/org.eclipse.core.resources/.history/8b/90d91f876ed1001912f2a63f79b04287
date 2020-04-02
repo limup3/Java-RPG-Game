@@ -1,0 +1,28 @@
+package 클래스연습;
+
+public class Weapon extends Item {
+
+		
+	
+	
+	
+	
+		void Sword() {
+		
+		System.out.println("무기");
+		System.out.println("");
+		System.out.println("*****************************************************");
+		System.out.println("  1. 아이언소드 = 100G / 현재공격력 10 증가");
+
+		System.out.println("  2. 실버소드    = 200G / 현재공격력 20 증가");
+
+		System.out.println("  3. 골드소드    = 300G / 현재공격력 30 증가");
+
+		System.out.println("  4. 다이아소드 = 400G / 현재공격력 40 증가");
+		System.out.println("*****************************************************");
+
+	}
+
+
+	
+}

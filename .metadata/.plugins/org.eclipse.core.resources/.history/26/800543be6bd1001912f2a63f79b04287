@@ -1,0 +1,32 @@
+package 클래스연습;
+
+import 자바4주차.Creature;
+
+public class Archer extends Creature {
+
+	// 기본체력 보정
+	int MaxHp = 100; 
+	int Hp = 100;
+	int Power = 10;
+	int Denpense = 10;
+	int Gold = 0;
+	
+	
+	public void Archer() { // 궁수 스탯
+		String Job = "궁수";
+		String Element = "불속성";
+		System.out.println("=====================");
+		System.out.println("직업          : "+Job);
+		System.out.println("최대체력    : "+MaxHp);
+		System.out.println("현재체력    : "+Hp);
+		System.out.println("최대마나    : "+MaxMp);
+		System.out.println("현재마나    : "+Mp);
+		System.out.println("현재피로도 :"+MaxFatigue);
+		System.out.println("최대피로도 :"+Fatigue);
+		System.out.println("공격력      : "+Power);
+		System.out.println("방어력      : "+Depense);
+		System.out.println("골드         : "+Gold);
+		System.out.println("속성         : "+Element);
+		System.out.println("=====================");
+}
+}

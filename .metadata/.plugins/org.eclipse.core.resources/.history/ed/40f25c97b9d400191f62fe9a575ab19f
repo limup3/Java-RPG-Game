@@ -1,0 +1,18 @@
+package 클래스;
+
+public class 연습 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int MaxHp;  // 최대체력
+		int Hp; // 현재체력
+		int Power=20; // 공격력
+		int Depense=10; // 방어력
+		String Name; // 이름
+		int Gold; // 소지한 골드
+		int Damage = Power - Depense;
+		
+		System.out.println(Damage);
+	}
+
+}

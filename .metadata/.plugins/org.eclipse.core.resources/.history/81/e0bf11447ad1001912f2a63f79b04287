@@ -1,0 +1,19 @@
+package 클래스연습;
+
+
+import java.util.Scanner;
+
+public class Item {
+
+	Scanner scan = new Scanner(System.in);
+	//필드
+	
+
+	
+	
+	
+	
+
+	
+	
+}

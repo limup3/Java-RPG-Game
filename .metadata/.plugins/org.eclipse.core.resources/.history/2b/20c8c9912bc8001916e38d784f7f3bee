@@ -1,0 +1,32 @@
+package 자바3주차;
+
+public class 연습3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int num = 2;
+		for(int F=0; F<num+3; F++) //다리
+		{
+			for(int I=num+2; I>F; I--)
+			{
+				System.out.print("  ");
+			}
+			for(int U=0 ; U<F; U++)
+			{
+				System.out.print("   ");
+			}
+		
+			for(int E=num+2; E>F ; E--)
+			{
+				System.out.print("aa");
+			}
+			if(F==num+2)
+			{
+				System.out.print("a");
+			}
+			System.out.println("");
+		}
+	}
+
+}

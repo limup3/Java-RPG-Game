@@ -1,0 +1,228 @@
+package 클래스;
+
+public class 연습 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			clearScreen();
+			System.out.println(""
+					+ "                        eeeee#                                                          \r\n" + 
+					"                       ee  X#eeeeu                                                      \r\n" + 
+					"                      eG       Deee                                                     \r\n" + 
+					"                     De           Wee                                                   \r\n" + 
+					"                     e               ee                                                 \r\n" + 
+					"                     E                Xe#                                               \r\n" + 
+					"                                        eX                                              \r\n" + 
+					"                              y,         e                                              \r\n" + 
+					"                               zD         e                                             \r\n" + 
+					"                       ,eeeey    e        ee                     ,e                     \r\n" + 
+					"                      GeXKDu9e,   e       Xe9                    Keee                   \r\n" + 
+					"                    Xe E5     e    e       eeD                    yeze   eeeeee         \r\n" + 
+					"                   ,e#K#GD#eK e    #e      eGe                     eu#eeee uK e     eee \r\n" + 
+					"               GeDeXEEe u ,XD e     eG     Eeze                  eeWGy eXuyD5 eK Keeeeu \r\n" + 
+					"               uee,e  ,GX Xu  5e    We      eDe                  e5yee  X##z u#ee9 eE   \r\n" + 
+					"                  eD uDEe 9G  Ke     e5     e9ye                 e#yeee  yy   5y ,ee    \r\n" + 
+					"                 Xe  ey 5  eezee     eWe    e9ue                  e9u            XeK    \r\n" + 
+					"               ,ee  eee XeDz  ee     eee    eE e,                 yXEX         KDX z    \r\n" + 
+					"              yeee,K eDEEe  Xee     ueze    eG,Ee                 eeXzK        uzee,    \r\n" + 
+					" e          Keeeeee  ee  zee9  y     eXe    eeuWe                  e9zz9          #e    \r\n" + 
+					" EeeeeXDDDeeeeG9XDe#G  eee#9eeEee   eeWe  u eeuue                  Weuy,E5       W5eW   \r\n" + 
+					"   eeeeeeeeGEzD#eeeeee9eeXyDDGeee   eEue yX eeuue                  5e     EK  Weeeeeee  \r\n" + 
+					"    eeeeG9DXXEeGGGE9eEe59Eeee  e#  ,eXXe yK eEKue                ,ezEeeey,GeeD ze       \r\n" + 
+					"      Eeeeeeee99#D#eX   eXDeEe eeeeee,e  E  eEKKe               eeee5  e eyeeee ee      \r\n" + 
+					"          eeE#zXzEeX ,Ee#X5u5e9eeeEEXKe  e uez,We               eG     eeE    Xe eeeW   \r\n" + 
+					"           ee9eee#e  W eeeeeXeez555, eu  e eeD,GE                     5ee       e e     \r\n" + 
+					"              5eeeeGW9eGXeze, zeE#D e   e, e9u,e                                 eee    \r\n" + 
+					"                eee  eeeeezeWW  e9GED zee #eDu5e                                  #e    \r\n" + 
+					"                  e e K E#eeeK#zeeeeeE9E  eEKue5                              \r\n" + 
+					"                 WeKe   eee5  eG X eee#e9eeyuye                               \r\n" + 
+					"                 eeEu  u9      e#,u ueee99yuKe5                           \r\n" + 
+					"                               Xe,9e  GeD, Ke#                            \r\n" + 
+					"                                Deee    eeGeG                             \r\n" + 
+					"                                          Xe          \r\n" + 
+					"");
+			Thread.sleep(100);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		clearScreen();
+		try {
+			System.out.println(""
+					+ "                         eeeee#                                                         \r\n" + 
+					"                        ee  X#eeeeu                                                     \r\n" + 
+					"                       eG       Deee                                                    \r\n" + 
+					"                      De           Wee                                                  \r\n" + 
+					"                      e               ee                                                \r\n" + 
+					"                      E                Xe#                                              \r\n" + 
+					"                                         eX                                             \r\n" + 
+					"                               y,         e                                             \r\n" + 
+					"                                zD         e                                            \r\n" + 
+					"                        ,eeeey    e        ee                                           \r\n" + 
+					"                       GeXKDu9e,   e       Xe9                                          \r\n" + 
+					"                     Xe E5     e    e       eeD                                         \r\n" + 
+					"                    ,e#K#GD#eK e    #e      eGe                                         \r\n" + 
+					"                GeDeXEEe u ,XD e     eG     Eeze                         W9DGX          \r\n" + 
+					"                uee,e  ,GX Xu  5e    We      eDe                  WGeeeeee5yXXezeee5    \r\n" + 
+					"                   eD uDEe 9G  Ke     e5     e9ye                 eeeeee,y5DDz#GeeeeW   \r\n" + 
+					"                  Xe  ey 5  eezee     eWe    e9ue                 9e  DKDz999X X9  G#   \r\n" + 
+					"                ,ee  eee XeDz  ee     eee    eE e,                We ezWDz u D999e  X   \r\n" + 
+					"               yeee,K eDEEe  Xee     ueze    eG,Ee                 EEW5#  Dy,5 uy#e  u  \r\n" + 
+					"  e          Keeeeee  ee  zee9  y     eXe    eeuWe               Eu#Ezy,       KyDEXe   \r\n" + 
+					"  EeeeeXDDDeeeeG9XDe#G  eee#9eeEee   eeWe  u eeuue               yzee9W       WzDeGX5   \r\n" + 
+					"    eeeeeeeeGEzD#eeeeee9eeXyDDGeee   eEue yX eeuue                eXe Ey        XWe9e   \r\n" + 
+					"     eeeeG9DXXEeGGGE9eEe59Eeee  e#  ,eXXe yK eEKue              ,e  e#z      uXWWGeeDe  \r\n" + 
+					"       Eeeeeeee99#D#eX   eXDeEe eeeeee,e  E  eEKKe              e   eeWXz Eez yEeE e#De \r\n" + 
+					"           eeE#zXzEeX ,Ee#X5u5e9eeeEEXKe  e uez,We             E    yzeeeGW,ee5e5  e#ze \r\n" + 
+					"            ee9eee#e  W eeeeeXeez555, eu  e eeD,GE                      K5#Dy #eeeeeeGK \r\n" + 
+					"               5eeeeGW9eGXeze, zeE#D e   e, e9u,e                               u       \r\n" + 
+					"                 eee  eeeeezeWW  e9GED zee #eDu5e                         \r\n" + 
+					"                   e e K E#eeeK#zeeeeeE9E  eEKue5                         \r\n" + 
+					"                  WeKe   eee5  eG X eee#e9eeyuye            \r\n" + 
+					"                  eeEu  u9      e#,u ueee99yuKe5            \r\n" + 
+					"                                Xe,9e  GeD, Ke#             \r\n" + 
+					"                                 Deee    eeGeG              \r\n" + 
+					"                                           Xe     			\r\n" + 
+					"");
+			Thread.sleep(150);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		clearScreen();
+		try {
+			System.out.println(""
+					+ "                        eeeee#                     \r\n" + 
+					"                       ee  X#eeeeu                 \r\n" + 
+					"                      eG       Deee                \r\n" + 
+					"                     De           Wee              \r\n" + 
+					"                     e               ee            \r\n" + 
+					"                     E                Xe#          \r\n" + 
+					"                                        eX         \r\n" + 
+					"                              y,         e         \r\n" + 
+					"                               zD         e        \r\n" + 
+					"                       ,eeeey    e        ee                 \r\n" + 
+					"                      GeXKDu9e,   e       Xe9                \r\n" + 
+					"                    Xe E5     e    e       eeD               \r\n" + 
+					"                   ,e#K#GD#eK e    #e      eGe               \r\n" + 
+					"               GeDeXEEe u ,XD e     eG     Eeze                       Geeee          \r\n" + 
+					"               uee,e  ,GX Xu  5e    We      eDe                    yeeeX,WDe   uu    \r\n" + 
+					"                  eD uDEe 9G  Ke     e5     e9ye                eeeee ,uyy9eeeeGeee  \r\n" + 
+					"                 Xe  ey 5  eezee     eWe    e9ue                9  5ee5Dzz  yeXe#ueX \r\n" + 
+					"               ,ee  eee XeDz  ee     eee    eE e,              eezeEKyDuyXD5ee  e,e  \r\n" + 
+					"              yeee,K eDEEe  Xee     ueze    eG,Ee                euK5KWX5yW,yEe5eDe  \r\n" + 
+					" e          Keeeeee  ee  zee9  y     eXe    eeuWe            ,#u Xe5Kz y,WWKXyeee    \r\n" + 
+					" EeeeeXDDDeeeeG9XDe#G  eee#9eeEee   eeWe  u eeuue            uu  ezXyy    uuXXXEX    \r\n" + 
+					"   eeeeeeeeGEzD#eeeeee9eeXyDDGeee   eEue yX eeuue               e5K5Wu     yXW ee    \r\n" + 
+					"    eeeeG9DXXEeGGGE9eEe59Eeee  e#  ,eXXe yK eEKue             z  eeX uu W W5WXeeDeE  \r\n" + 
+					"      Eeeeeeee99#D#eX   eXDeEe eeeeee,e  E  eEKKe            5e,  eeyX5EEXWyeee  ee  \r\n" + 
+					"          eeE#zXzEeX ,Ee#X5u5e9eeeEEXKe  e uez,We            eeee5 eeGuKK#ee    9eeD \r\n" + 
+					"           ee9eee#e  W eeeeeXeez555, eu  e eeD,GE             e,5#X5Xeeeee eeeeeeXee \r\n" + 
+					"              5eeeeGW9eGXeze, zeE#D e   e, e9u,e              Keeeeeeu      #eeeee9  \r\n" + 
+					"                eee  eeeeezeWW  e9GED zee #eDu5e             \r\n" + 
+					"                  e e K E#eeeK#zeeeeeE9E  eEKue5             \r\n" + 
+					"                 WeKe   eee5  eG X eee#e9eeyuye              \r\n" + 
+					"                 eeEu  u9      e#,u ueee99yuKe5              \r\n" + 
+					"                               Xe,9e  GeD, Ke#               \r\n" + 
+					"                                Deee    eeGeG      \r\n" + 
+					"                                          Xe     	                                   \r\n" + 
+					"");
+			Thread.sleep(200);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		clearScreen();
+		try {
+			System.out.println(""
+					+ "                         eeeee#                     \r\n" + 
+					"                        ee  X#eeeeu                 \r\n" + 
+					"                       eG       Deee                \r\n" + 
+					"                      De           Wee              \r\n" + 
+					"                      e               ee            \r\n" + 
+					"                      E                Xe#          \r\n" + 
+					"                                         eX         \r\n" + 
+					"                               y,         e         \r\n" + 
+					"                                zD         e        \r\n" + 
+					"                        ,eeeey    e        ee               \r\n" + 
+					"                       GeXKDu9e,   e       Xe9              \r\n" + 
+					"                     Xe E5     e    e       eeD                      uee#D       \r\n" + 
+					"                    ,e#K#GD#eK e    #e      eGe                     eeDD9eu      \r\n" + 
+					"                GeDeXEEe u ,XD e     eG     Eeze                zeeeXuKyyGeee z  \r\n" + 
+					"                uee,e  ,GX Xu  5e    We      eDe                  ,eeXDDXu e  ee9\r\n" + 
+					"                   eD uDEe 9G  Ke     e5     e9ye             u  eeuKXDz#zWee  ee\r\n" + 
+					"                  Xe  ey 5  eezee     eWe    e9ue               eeyXDXWWKKyXe  ee\r\n" + 
+					"                ,ee  eee XeDz  ee     eee    eE e,               e#WDz5KXzzXXeeeW\r\n" + 
+					"               yeee,K eDEEe  Xee     ueze    eG,Ee          ,   e9yyW ,,  yzDEG   \r\n" + 
+					"  e          Keeeeee  ee  zee9  y     eXe    eeuWe             #eXy5,,KKu,XWDye5  \r\n" + 
+					"  EeeeeXDDDeeeeG9XDe#G  eee#9eeEee   eeWe  u eeuue           ee eEDyu  , ,5,XXeG   \r\n" + 
+					"    eeeeeeeeGEzD#eeeeee9eeXyDDGeee   eEue yX eeuue          eGe  eE,WuKW ,uW9ee    \r\n" + 
+					"     eeeeG9DXXEeGGGE9eEe59Eeee  e#  ,eXXe yK eEKue          eye   e5yXeeeeeee   ,  \r\n" + 
+					"       Eeeeeeee99#D#eX   eXDeEe eeeeee,e  E  eEKKe          e eeD eeeeKW, z    5e  \r\n" + 
+					"           eeE#zXzEeX ,Ee#X5u5e9eeeEEXKe  e uez,We          eeeeeeee      eeeeeee  \r\n" + 
+					"            ee9eee#e  W eeeeeXeez555, eu  e eeD,GE                          y      \r\n" + 
+					"               5eeeeGW9eGXeze, zeE#D e   e, e9u,e                                 \r\n" + 
+					"                 eee  eeeeezeWW  e9GED zee #eDu5e           \r\n" + 
+					"                   e e K E#eeeK#zeeeeeE9E  eEKue5           \r\n" + 
+					"                  WeKe   eee5  eG X eee#e9eeyuye             \r\n" + 
+					"                  eeEu  u9      e#,u ueee99yuKe5             \r\n" + 
+					"                                Xe,9e  GeD, Ke#              \r\n" + 
+					"                                 Deee    eeGeG       \r\n" + 
+					"                                           Xe     	  \r\n" + 
+					"");
+			Thread.sleep(250);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		clearScreen();
+		try {
+			System.out.println(""
+					+ "                         eeeee#                   \r\n" + 
+					"                        ee  X#eeeeu                 \r\n" + 
+					"                       eG       Deee                                          \r\n" + 
+					"                      De           Wee             \r\n" + 
+					"                      e               ee          \r\n" + 
+					"                      E                Xe#        \r\n" + 
+					"                                         eX       \r\n" + 
+					"                               y,         e       \r\n" + 
+					"                                zD         e      \r\n" + 
+					"                        ,eeeey    e        ee     \r\n" + 
+					"                       GeXKDu9e,   e       Xe9    \r\n" + 
+					"                     Xe E5     e    e       eeD            \r\n" + 
+					"                    ,e#K#GD#eK e    #e      eGe            \r\n" + 
+					"                GeDeXEEe u ,XD e     eG     Eeze                      5         \r\n" + 
+					"                uee,e  ,GX Xu  5e    We      eDe                    eeeee       \r\n" + 
+					"                   eD uDEe 9G  Ke     e5     e9ye                  zeDDDeeG     \r\n" + 
+					"                  Xe  ey 5  eezee     eWe    e9ue                  eEz#zXXe     \r\n" + 
+					"                ,ee  eee XeDz  ee     eee    eE e,               eeG9#EE9Geu   E\r\n" + 
+					"               yeee,K eDEEe  Xee     ueze    eG,Ee              ee#zzXXDXXEeu Ge\r\n" + 
+					"  e          Keeeeee  ee  zee9  y     eXe    eeuWe              WE5XzzzzXDD9e ee\r\n" + 
+					"  EeeeeXDDDeeeeG9XDe#G  eee#9eeEee   eeWe  u eeuue              e9XXD5yyXzXzeX  \r\n" + 
+					"    eeeeeeeeGEzD#eeeeee9eeXyDDGeee   eEue yX eeuue            ,ee#z55XXX5z5X9e  \r\n" + 
+					"     eeeeG9DXXEeGGGE9eEe59Eeee  e#  ,eXXe yK eEKue          ,z eGXXy5XXXyzD#9e  \r\n" + 
+					"       Eeeeeeee99#D#eX   eXDeEe eeeeee,e  E  eEKKe         Dee  eEDXy5XW5X9eee  \r\n" + 
+					"           eeE#zXzEeX ,Ee#X5u5e9eeeEEXKe  e uez,We         ee   yee9z9E#eeee    \r\n" + 
+					"            ee9eee#e  W eeeeeXeez555, eu  e eeD,GE          ee   yeeeeee5       \r\n" + 
+					"               5eeeeGW9eGXeze, zeE#D e   e, e9u,e           5eeXe    yu  eeee9  \r\n" + 
+					"                 eee  eeeeezeWW  e9GED zee #eDu5e               K         ,9e   \r\n" + 
+					"                   e e K E#eeeK#zeeeeeE9E  eEKue5                 \r\n" + 
+					"                  WeKe   eee5  eG X eee#e9eeyuye                  \r\n" + 
+					"                  eeEu  u9      e#,u ueee99yuKe5                  \r\n" + 
+					"                                Xe,9e  GeD, Ke#                   \r\n" + 
+					"                                 Deee    eeGeG                                  \r\n" + 
+					"                                           Xe                                   \r\n" + 
+					"");
+			Thread.sleep(300);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		try {
+			Thread.sleep(100);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+}
+	public static void clearScreen() {
+		for (int i = 0; i < 80; i++)
+			System.out.println("");
+	}
+}

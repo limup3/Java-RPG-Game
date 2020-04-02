@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="불속성"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="true"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="불속성"/>
+			<item value="불솏ㅇ"/>
+			<item value="체력"/>
+			<item value="A_Attack"/>
+			<item value="archer"/>
+			<item value="1층"/>
+			<item value="motion.T_Attack_Skill2"/>
+			<item value="motion.T_Attack_Skill1"/>
+			<item value="skill"/>
+			<item value="motion"/>
+			<item value="mot"/>
+			<item value="thief.Skill"/>
+			<item value="thief.Fatigue"/>
+			<item value="Inn.Thi_in(thief);"/>
+			<item value="store.Thi_sto(thief);"/>
+		</list>
+		<list key="replacehistory">
+			<item value="motion.A_Attack_Skill2"/>
+			<item value="motion.A_Attack_Skill1"/>
+			<item value="archer.Skill"/>
+			<item value="archer.Fatigue"/>
+			<item value="Inn.Arc_in(archer);"/>
+			<item value="store.Arc_sto(archer);"/>
+			<item value="archer.Skill()"/>
+			<item value="archer.Skill1()"/>
+			<item value="archer.Skill2()"/>
+			<item value="archer.archer();"/>
+			<item value="archer.Mp"/>
+			<item value="archer.Hp"/>
+			<item value="archer.Attacked"/>
+			<item value="archer.Gold"/>
+			<item value="motion.A_Attack();"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="11"/>
+		<item key="DIALOG_Y_ORIGIN" value="293"/>
+		<item key="DIALOG_WIDTH" value="359"/>
+		<item key="DIALOG_HEIGHT" value="523"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1134"/>
+		<item key="DIALOG_Y_ORIGIN" value="595"/>
+	</section>
+</section>

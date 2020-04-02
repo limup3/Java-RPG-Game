@@ -1,0 +1,93 @@
+package 클래스;
+
+public class 연습 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		try {
+			System.out.println(""
+					+ "                                                                                                          \r\n" + 
+					"                                                                           ee                         ,   \r\n" + 
+					"                                                                            ee                      ,K    \r\n" + 
+					"                                                                              ee                     ,D   \r\n" + 
+					"                                                                               ee                     ee  \r\n" + 
+					"                                                                                 eu                  ,eee \r\n" + 
+					"                                                                         eeeeeee ueeee               eeee \r\n" + 
+					"                                                                       eeeeeeeeeeee eG              eeeeey\r\n" + 
+					"                                                                       #eeeeeeeeeeeuKeee           5yeeee,\r\n" + 
+					"                                                                      Weeeeeeeeeeeeeeeeez        eeeeee e \r\n" + 
+					"                                                                      eeeeeeeeeeeeeeG   ee     y5 Wee9eKy \r\n" + 
+					"                                                                       eeeeeeeeeeeee     eee  zeeeeeeeez  \r\n" + 
+					"                                                                          eeeeee9#ee       eeeeeeeeee e   \r\n" + 
+					"                                                                         eeeeeee9zee        zeeeeeGee     \r\n" + 
+					"                                                                        ueeeeeeeeeee          eeeW D      \r\n" + 
+					"                                                                        eeeeeeeKueeW          eee,,W      \r\n" + 
+					"                                                                        eeeeeeee eeG         Eee          \r\n" + 
+					"                                                                       eeeeeeeee eeee                     \r\n" + 
+					"                                                                       eeeeeeeee  e9eee                   \r\n" + 
+					"                                                                       yeeeeeeeee ee  eeeW       ,        \r\n" + 
+					"                                                                       eeeeeeeeeeG eeE   ee      ,        \r\n" + 
+					"                                                                        eeeeeW      #eee   eK             \r\n" + 
+					"                                                                        eeeeG               y             \r\n" + 
+					"                                                                        eeeeee                            \r\n" + 
+					"                                                                        eeeeeee                           \r\n" + 
+					"                                                                       Weee eeee                          \r\n" + 
+					"                                                                       uzW  Ku                            ");
+			
+			Thread.sleep(200);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+		try {
+			
+			System.out.println(""
+					+ "                                                                                                    \r\n" + 
+					"                                                                                                    \r\n" + 
+					"                                                                                                    \r\n" + 
+					"                                                                                                    \r\n" + 
+					"                                                                                                    \r\n" + 
+					"                                                                                                    \r\n" + 
+					"                                                                                                    \r\n" + 
+					"                                                                                                    \r\n" + 
+					"                                                                                                    \r\n" + 
+					"Wu,                                                                                                 \r\n" + 
+					"  ,                                                                                              z  \r\n" + 
+					"                                                                    ,Ku  eee                    e   \r\n" + 
+					"                                                                 eeeeeeeeeeeeE                 e#5e \r\n" + 
+					"                                                                eeeeeeeeEeeeeeeee#        Xeeeee5u  \r\n" + 
+					"                                                              eeeeeeeeeeeeeee9eeeeeeeeeeeeeeee      \r\n" + 
+					"       ,,    ,                                                eeeeeeeeeeeeeee    W#eeeeeeeeD        \r\n" + 
+					"       ,u,  W,                                                 eeeeeeeEeeeeee e          y   5eX    \r\n" + 
+					"                                                               eeeeeeeeeeeeeeeee#WK,   eeeeeee      \r\n" + 
+					"      uu  e                                                    ee eeeeeeeeeeeeeeeeezeeeeee#W5       \r\n" + 
+					"      ,uue9 ,                                                     eee9eeeeeeeeeeeee#ey              \r\n" + 
+					"        We,    ,        ,                                          GezeeeeeeeeeeeeeeD               \r\n" + 
+					"       W e  ,u W u                                                   eeee eeeeeeeeeeeeeye           \r\n" + 
+					"       G e  ,u D,         ,  ,                                       eeee eeeeeeeeeeeeeee           \r\n" + 
+					"      W9 D     5W     ,W  X  Wu  ,u                                  eeeeeeee eeeeeeeeeee           \r\n" + 
+					"u   , z# W  u,,55     ,u, zu  5   X5  u                              eeeeeee  eeeeeeeeeee           \r\n" + 
+					"uu    e# uu    ,y5        K#  Kz  D9K                                eeeeee    eeeeeeeeeeu          \r\n" + 
+					" u DW ezW W  u  5yu    5G  Dz  D5  #EW ,                            yeeeee5   eeeeeee eeeeeeeee     \r\n" + 
+					"uu    eDD,KK zy  X5,    Ee  XD  E, XX95                           Xee,  ,     E  eeee  eeeeeeeeG    \r\n" + 
+					" ,u   e5z5uW5z5W uXXK    9GWuDD ,G  D5EW  5 , u                 #eeX             eeeeu              \r\n" + 
+					"  K#  EXDDKuuyDKy KXDK   ,#9uWXX  #  D5EX  u          ,,      Geez               yeeeeeeeW          \r\n" + 
+					"    zy##zzXuuuW555 ,DzX   KDDWyXX XD  X595u5   u ,uKK       #eez                    ueeeeee         \r\n" + 
+					" eW   K y##XKuKWDyz uXD#W  D5DyW555XX ,55D5z5    WuKeXeeu eeee                                      \r\n" + 
+					" 9eGW  W, KXz5WWyW Xy yXXX  5yX5yyyyXXWKyy5zzD     ,#XWeeeeeeee                                     \r\n" + 
+					", D#zzKK5WWKWXXyy5yuW5uWy5D5 Wy5Xyyyy55W55yy5D9yE    Dy, 9eeee#ee                                   \r\n" + 
+					"   XzXyWyy5yWKWyyyy55555555XXXXXXXXXXDDDDDDDDDDX#EyXX5WK,Wyeeeeeeez   ,uuKKKWy,                     \r\n" + 
+					"    #eeeeGeeGEGGEGGGGGGEEEEE9###zzzzzzzzzzzz###EEE9EeeeeeeeXeE99#eeeeeeeeeeEzW                     ");
+			Thread.sleep(400);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
+		
+}
+	public static void clearScreen() {
+		for (int i = 0; i < 80; i++)
+			System.out.println("");
+	}
+}

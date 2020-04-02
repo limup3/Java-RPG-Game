@@ -1,0 +1,56 @@
+package 클래스;
+
+public class 연습 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println(""
+		+ "                               WK                           \r\n" + 
+		"                            9eK e                           \r\n" + 
+		"                          ye,   e                           \r\n" + 
+		"                         De    eD                           \r\n" + 
+		"                        eX    5e                   ,5       \r\n" + 
+		"                       e   ,  ee                  eE,e      \r\n" + 
+		"                      e  ,,  ze                 Xe   e      \r\n" + 
+		"                     e  ,,  Kee                eG   ,e      \r\n" + 
+		"                    e, ,,,  Ge                e#  , 9W      \r\n" + 
+		"                   e, ,,,  Wee               ey  ,, e       \r\n" + 
+		"                  eK uu,, Kee              eeu  ,,  e       \r\n" + 
+		"                 ez ,u,,  eeX             eey  ,,  e,       \r\n" + 
+		"                 e ,,uu, zee            KeeW  ,,, ue        \r\n" + 
+		"                ye uuu, uee            Eeey   ,,  e         \r\n" + 
+		"                ee uuu uee            eeeW  ,    Ee         \r\n" + 
+		"                 eeu  zeeE           eeey  ,uKK,ye          \r\n" + 
+		"                 Wee ,eee           Geey  ,uKK,We           \r\n" + 
+		"           EzKWe   eG#eGe          eee9   uWKuWe,           \r\n" + 
+		"        eeK  Ez5ee eeee#eeeeee#   eeee  uWW, ye,            \r\n" + 
+		"     zeG  yeeeeX5Dee          ueeeeee,,yK  ,9e              \r\n" + 
+		"   yeu  ,e     Xue              Xeey     5ee#               \r\n" + 
+		"   e       DeeE e                KDXyEeeeeK                 \r\n" + 
+		"  eK   uEeeW   e                  DeeeW #                   \r\n" + 
+		"  ueeeeXK5 ,K  ,                     9  e y#                \r\n" + 
+		"        z 9K  , e                    eeeee  e               \r\n" + 
+		"       eWz    eeeu   uze             e Weeeu 9u             \r\n" + 
+		"      eXD    ee e    eee             eE   ,We #y            \r\n" + 
+		"      e#     z  e    9W             G XyE5   D 95           \r\n" + 
+		"      e       e             E ee   uz  G ue9    DW          \r\n" + 
+		"     e        E           eeeeee  9#   e   ,eeE  e          \r\n" + 
+		"     e        DK         ,e  ee KG     e      u99e          \r\n" + 
+		"    De         D         ,u,Ee u       95                   \r\n" + 
+		"    Ke         e        ,Dzyu          9y                   \r\n" + 
+		"     e K        EeeX#999y              e                    \r\n" + 
+		"     e  yu  ,,,   Wy      ,K     ,  y ue                    \r\n" + 
+		"      e    ,,        Kyyy5W    uyyyy, e                     \r\n" + 
+		"       e9   ,,zDz#zzX,,uW5K  #D,     e                      \r\n" + 
+		"        WeX       KuKEEEXKu    59y Ke                       \r\n" + 
+		"          KGG   ,W      W#X,  ,  9EE                        \r\n" + 
+		"            yez         5ee#u,    G                         \r\n" + 
+		"              ,9EGeeeee9D  e      Wz                        \r\n" + 
+		"                            e,  z  e                        \r\n" + 
+		"                             e# e ze                        \r\n" + 
+		"                               EezeK                        \r\n" + 
+		"                                                            \r\n" + 
+		"");
+	}
+
+}

@@ -1,0 +1,68 @@
+package 클래스;
+
+public class MyThread extends Thread {
+
+
+	
+	
+	
+	@Override
+	public void run() {
+		
+
+				
+			try {
+							
+				Thread.sleep(100);
+			} catch (Exception e) {
+				System.out.println("오류가 발생했습니다 : "+e.getMessage());
+			}
+			
+		}
+
+
+	void run(int a) {
+		String Tutorial[] = {
+				" eeeeeeeeeeeeee                                                        eee                 eeee      ", 
+				" ee     e     ee                   ee                                  ee                    ee      ", 
+				" e     ee     ee                   ee                                   e                    ee      ", 
+				"       ee        eeee     eeee   eeeeeee      eeeeee      eee  eeeee   eee       eeeeee      ee      ", 
+				"       ee          ee       ee     ee       eee    eee    ,eeee        eee    eee    ee      ee      ", 
+				"       ee          ee       ee     ee      ee        ee    ee           e     ee      ee     ee      ", 
+				"       ee          ee       ee     ee     ee         ee    e            e       eeeeeeee     ee      ", 
+				"       ee          ee       ee     ee     ee         ee    e            e     eee     ee     ee      ", 
+				"       ee          ee       ee     ee      ee        ee    e            e    ee       ee     ee      ", 
+				"        e           ee    eeee     ee       ee     eee     e            e    ee     eeee     ee      ", 
+				"     eeeeee          eeeeee         eeeee    eeeeeee     eeeeee       eeeee,  eeeeeee eeee eeeeee    "};		
+		
+		for (int i = 0; i<Tutorial.length ; i++)
+		{
+			System.out.println(Tutorial[i]);
+		}
+		
+		try {
+			Thread.sleep(1000);
+		} catch (Exception e) {
+			System.out.println("오류가 발생했습니다 : "+e.getMessage());
+		}
+	}
+
+}
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	

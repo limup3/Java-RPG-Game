@@ -1,0 +1,20 @@
+package 자바4주차;
+
+public class Life {
+
+	
+	//필드
+		int MaxHp;  // 최대체력
+		int Hp; // 현재체력
+		int Power; // 공격력
+		int Depense; // 방어력
+		String Name; // 이름
+		int Gold; // 소지한 골드
+		
+		
+	/*	public int Attack() {
+			return Power; // 리턴값을 돌려준다.
+		}*/
+		
+
+}

@@ -1,0 +1,82 @@
+package 자바3주차;
+
+public class 별다리 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int num = 1;
+		for(int a = 0 ; a<num+3 ; a++) //다리
+		{
+
+			for(int b = num+3 ; b>a ; b--)
+			{
+				System.out.print(" ");
+			}
+			for(int c = num+3 ; c>a ; c--) 
+			{
+				System.out.print("a"); 			
+			}
+			for(int c = num ; c>a ; c--) 
+			{
+				System.out.print("a"); 			
+			}
+			for(int c = 0 ; c<=a; c++)
+			{
+				if(a==0)
+				{
+					System.out.print("  ");
+				}
+			}
+
+			for(int e = 1 ; e<a+1 ; e++)
+			{
+				
+			}
+			if(a==1)
+			{
+				System.out.print("12345678");	
+			}
+			if(a==2)
+			{
+				System.out.print("123456789101112");
+			}
+			for(int g = num+3 ; g>a ; g--) 
+			{
+				System.out.print("b"); 			
+			}
+			for(int c = num ; c>a ; c--) 
+			{
+				System.out.print("b"); 			
+			}
+			
+			
+			System.out.println("");
+		}
+
+/*		for(int z = 0 ; z<1 ; z++) //다리 마지막부분
+		{
+			for(int x = 0 ; x<num ; x++)
+			{
+				System.out.print(" ");
+			}
+			for(int v = 0 ; v<1 ; v++)
+			{
+				System.out.print("a");
+			}
+			for(int Q = 0 ; Q<num+2 ; Q++)
+			{
+				System.out.print(" ");
+			}
+			for(int W = 0 ; W<num+2 ; W++)
+			{
+				System.out.print(" ");
+			}
+
+			System.out.print(" a");
+		}
+		
+		*/
+	}
+
+}

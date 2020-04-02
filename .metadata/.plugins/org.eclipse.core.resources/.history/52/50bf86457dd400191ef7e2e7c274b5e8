@@ -1,0 +1,53 @@
+package 클래스;
+
+import java.util.Scanner;
+
+public class 연습2 {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+
+		System.out.println("EEEEEEEEEEEEEEEEEEEEEEEEEEEeeeeeeeeeGEEEEEEEEEEEEEEEEEEEEEEeeeeeeEEEEEEEEEEEEEEEEEEEEEGe9                                                                                                               \r\n" + 
+				"EEEEEEEEEEEEEEEEEEEEEEEEEEEee  GeEWeeeeGEEEEEEEGeeeeGEEEEGee9eeueGGEGGGGGGGGGGGEEEEEEEEeE                                                                                                               \r\n" + 
+				"EEEEEEEEEEEEEEEEEEEEEEEEGEEGee   y   zeeeeEEGeeeeKueeeeGeeeX e DeEEEEEEEEEEEEEEEEEEEEEEeE                                                                                                               \r\n" + 
+				"EEEEEEEEEEEEEEEEEEEEEEGEEEEEGee,    5   zeeeeeE     yeeeey ,   eeEEEEEEEEEEEEEEEEEEEEEEeE                                                                                                               \r\n" + 
+				"EEEEEEEEEEEEEEEEEEGEEEEEEEEEEGeeeEW,uXG  5eeu    K#    5e zy 5eeEEEEEEEEEEEEEEEEEEEEEEEeE                                                                                                               \r\n" + 
+				"EEEEEEEEEEEEEEEEGEEEEEEEEEEEEGEGeE    yD  GE ,XeeXuXe X#  #  eeEEEEEEEEEEEEEEEEEEEEEEEEeE                                                                                                               \r\n" + 
+				"EEEEEEEEEEEEEEEEEEEEEEEGEEEEEEEEeeeeDuX eeeG9eee9 9#WE 9eGWKeeGEEEEEEEEEEEEEEEEEEEEEEEEeE                                                                                                               \r\n" + 
+				"EEEEEeeeeGEGEGEEEEEEEEEEEEEEEEEEGe     uue eeezK#GXu DGDDe   eEEEEEEEEEEEEEEEEEEEEEEEEEeE                                                                                                               \r\n" + 
+				"EEEEEe WeeeeEEEEEEEEEEEEEEEEEEEEEeeee   Ku      zXy95XD,   GeeEEEEEEEEEEEEEEEGeeEeEEEEEeE                                                                                                               \r\n" + 
+				"Geeeeee,  eeeeeGEEGGGEEEEEEEEEEEEEEEeee5      , ,#ee#eX   eeeEEEEEEEEEEEEEEGeee yeGGGEEeE                                                                                                               \r\n" + 
+				"Gz yeeeee   KeeeeeeeeeeeeeeeeeeGEEEEEEeeeeeuWeeee#,e#yeeeEeGEEEGeeeeeeeeeeeee  DeeeXGEEeE                                                                                                               \r\n" + 
+				"Gee   5eeee     u#ee   XGG#yW,eeeGGEEEEGeee# e ,#E W GX EeGEEEeeX5Xee#  eeK   eee  EGEEeE                                                                                                               \r\n" + 
+				"EGee#    Keee5W     uXu     yu GeGeeGEEEEEe9 W          ueEEeeee 5    K    ,zee   eeEE9eE                                                                                                               \r\n" + 
+				"GGEeee9        Wyu           zW e  eeeeGEEeeeyuu      EGEeeee K Xy       KW     WeeEEEEeE                                                                                                               \r\n" + 
+				"EEGEGeeee        K5XDzz#z5u   9X   zy #eeee K#Dee##z ee eeX E  yD   DGEzXu    KeeeEEEEEeE                                                                                                               \r\n" + 
+				"EEGEEGGeeeeeeE9#DyKWXzXu    yK XG9 KWeGX#ee   Xee  eGeeXz#eeX 9# Wy   u5uWXX9eeeEEEEEEEeE                                                                                                               \r\n" + 
+				"EGEEEEEEGz         ,   u5zeeW  K y9D9     #E999E      X     #Duu  9e9Xu       9GEEEEEEEeE                                                                                                               \r\n" + 
+				"GGEEEEEEGeeee9y     K5XyKy5  WGu yDXDzeeeeXueEeW,WuXGyeE9Ge9zzy 9W  ,  #D5zeeeeEE999999eE                                                                                                               \r\n" + 
+				"EEEEEEEEEEEGeeeeeeee9    W5 y#   uyuW5XK D  E, K5u  ye5zeXuW,,   5 eGW  EeeeEE9EEEEEEEEe9                                                                                                               \r\n" + 
+				"EEEEEEEEEEEEEEEEGG9 ,9eeeee  , e   u E  y  e5Keeee5eee   X 9 XyXzE Xeeee9GEEEE999999999eE                                                                                                               \r\n" + 
+				"GEEEEEEEEEEEEEEEEGeeeeeeGe##eeeeWeeeee ,ueeeee    ee   yzeGeeeeeeeeeGEEEEEEEE999EEEEE99e9                                                                                                               \r\n" + 
+				"EEEEEEEEEEEEEEEEEEEEEEEEEGeeGEGeeeGee  De#zeE  uW   #9,   eeE9EEEEEEEEEEEEE99EEE9999999e9                                                                                                               \r\n" + 
+				"EEEEEEEEEEEEEEEEEEEEEEEEEEEEGeeee9ee  e99eez #9 ee,u9eEW5 yeeEEEEEEE9999999E99999999999e9                                                                                                               \r\n" + 
+				"EEEEEEEEEEEEEEEEEEEEEEEEEEGeeE  Xee55 Xeeee    9ze , eEz   Kee999999EEEE999999999999999e9                                                                                                               \r\n" + 
+				"EEEEEEEEEEEEEEEEEEEEEEeeeeeeu9zK  e9XeeGee   yXe e,u eWeEK  ueE9EE99999999999999999E999e9                                                                                                               \r\n" + 
+				"EEEEEEEEEEEEEEEEEEEGeeeeEyWy  eGu  XeeEEe  eeG9e e,  DuEeGeu e999999999999999999E999999e9                                                                                                               \r\n" + 
+				"EEEEEEEEEEEEEEEEEeeee9      ,G  uXeeGEEEee5zz,ee 9W  Wyye5W#9e9999999999999999E99999999e9                                                                                                               \r\n" + 
+				"EEEEEEEEEEEEEEEeeee   #ey     eeeeeEEEEEe# uX ee zy  KD e#  ee999999999E999999999999999e9                                                                                                               \r\n" + 
+				"EEEEEEEEEEEGeeeee   K5   zKGeeeGEEEEEEEGe Kuz ee DD  ,E ee  Ee9999999999999999999999999e9                                                                                                               \r\n" + 
+				"EEEEEEEEGeeeeeK   z5     9eeeEEEEEEEEEEee yuX ee Dz   e ee   eE999999999999999999999999e9                                                                                                               \r\n" + 
+				"EEEEEEGeeeG    u,     #eeeeGEEEEEEEEEEEe, WuKyee XD K e eeu  eE999999999999999999999999e9                                                                                                               \r\n" + 
+				"EEEGGeeeX   zK     9eeeeGEEEEEEEEEEEEEGe uW, zee yEXuXe ee5  ee999999999999999999999999e9                                                                                                               \r\n" + 
+				"GGeeee   XeG    eeeeeGEEEEEEEEEEEEEEEEeE  ,  eGeEGX   eEEEz  Xe999999999999999999999999e9                                                                                                               \r\n" + 
+				"eeeX  ueeGu KeeeeeEEEEEEEEEEEEEEEEEEEEeE     G#zeeeGXeeGz9e ueG999999999999999999999999e9                                                                                                               \r\n" + 
+				"e   XGEW, #eeeeEEEEEEEEEEEEEEEEEEEEEEEEeeEK, ee yW eeeEEEee ee9999999999999999999999999e9                                                                                                               \r\n" + 
+				"  #95WXeeeeeEEEEEEEEEEEEEEEEEEEEEEEEEEEEGeeD eX Ge zeE999EGXeE9999999999999999999999999e9                                                                                                               \r\n" + 
+				"XDX9eeeeGEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE9EGeEe  D9  e9999EEEE99999999999999999999999999e9                                                                                                               \r\n" + 
+				"9eeeeGEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE9999#99eeyee Ee9#######99999999999999999999999999e9                                                                                                               \r\n" + 
+				"GeGEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE9EEEEGGGeeeeeeeeeeeeGGGEEE9999999999999999999999999e9                                                                                                               \r\n" + 
+				"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee                                                                                                               \r\n" + 
+				"yWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWXW");
+
+}}

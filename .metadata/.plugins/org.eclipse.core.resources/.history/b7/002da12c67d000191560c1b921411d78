@@ -1,0 +1,40 @@
+package 클래스연습;
+
+import java.util.Scanner;
+
+public class Inn {
+
+	Scanner scan = new Scanner(System.in);
+	
+	
+	
+	void Inn() {
+		Knight knight = new Knight();
+		Knight asb = knight;
+		System.out.println(knight);
+		System.out.println(asb);
+		System.out.println("");
+		System.out.println(">>여관에 오신것을 환영합니다!!");
+		System.out.println(">>여관에선 시험의 탑에서 쌓인 피로도를 회복할수있습니다.");
+		System.out.println(">>골드를 내고 여관에서 휴식하시겠습니까?");
+		System.out.println("");
+		System.out.println("피로도 상태 :"+asb.Fatigue);
+		System.out.println("");
+		System.out.println("1. 예 / 2. 아니오");
+		int Num8 = scan.nextInt();
+		if( Num8 ==1)
+		{
+			knight.Gold-=10;
+			knight.Fatigue=0;
+			System.out.println("10골드를 내고 휴식을 취합니다.");
+			System.out.println("현재 소지골드 : "+asb.Gold);
+			System.out.println("현재 피로도    : "+asb.Fatigue);
+			System.out.println("");
+		}
+		else if(Num8 == 2)
+		{
+			System.out.println("마을로 돌아갑니다.");
+			System.out.println();
+		}
+	}
+}

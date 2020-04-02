@@ -1,0 +1,38 @@
+package 클래스연습;
+
+
+public class FinalBoss extends Monster {
+
+
+	FinalBoss() {
+		this.MaxHp = 180;
+		this.Hp = 180; 
+		this.Power = 40;
+		this.Depense = 30;
+		this.Gold = 999;
+	}
+	
+	
+	public void Dragon() {
+		String Name = "드래곤";
+		System.out.println("=====================");
+		System.out.println("이름        : "+Name);
+		System.out.println("최대체력  : "+MaxHp);
+		System.out.println("현재체력  : "+Hp);
+		System.out.println("공격력     : "+Power);
+		System.out.println("방어력     : "+Depense);
+		System.out.println("골드        : "+Gold);
+		System.out.println("=====================");
+	}
+	
+
+	
+	public void Attacked_Dragon(int sum) { //공격 받는 함수
+		//방어력이 받은 데미지보다 큰 경우
+		if(Depense >= sum)
+			Hp=Hp-0;
+		else
+			Hp = Hp+Depense-sum;
+		
+	}
+}

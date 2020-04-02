@@ -1,0 +1,60 @@
+package 클래스;
+
+public class MyThread extends Thread {
+
+	String Intro[] = {
+			"                                                                                                                                                      ",
+			"    eeeeeeeK                                                                                                                                          ",
+			"  eeeeeeeeeW                                                                                                                                          ",
+			" GeeeG                                                                                                                                                ",
+			" eeee            D5KG     EWy#       ueeeeE   Xeeeez          ,eeeeE   5eeeez           eeeeee           zeeeeE           EeeeeG           zEEEGe     ",
+			"  eeeeeE         eeee     eeee      eeeeeeeeeeeeeeeee#       eeeeeeeeeeeeeeeeee      5eeeeeeeeeeK      eeeeeeeeee       eeeeeeeeee      Geeeeeeee     ",
+			"   eeeeeeeeu     eeee     eeee     eeee   eeeeeX  eeee      eeee   eeeeeX  eeee,    KeeeeK  Keeee     eeeez  Xeeee     eeee    eeee    #eeeeeXXDe     ",
+			"     Keeeeeee    eeee     eeee     eee5    eeee    eeee     eeeD    eeee    eeee    eeee      eeee    eeee    Xeee    eeee      eeee   eeee           ",
+			"         eeeee   eeee     eeee     eee5    eeee    eeee     eee5    eeee    eeee    eeee      eeee    eeeG    ueee    eeeeeeeeeeeeee   eeee           ",
+			"          eeee   eeee     eeee     eeeX    eeee    eeee     eeeX    eeee    eeee    eeee      eeee    eeee    Keee    eeeeeeeeeeeeee   eeee           ",
+			"          eeee   eeee     eeee     eeeX    eeee    eeee     eeeX    eeee    eeee    eeee      eeee    eeee    Keee    9eee             eeee           ",
+			"  Wy,,uXeeeee    zeeeG   eeeey     eeeX    eeee    eeee     eeeX    eeee    eeee    #eeee    eeeeu    eeee    Keee     eeeee           eeee           ",
+			"  eeeeeeeeee,     eeeeeeeeeee      eeez    eeee    eeee     eee#    eeee    eeee     eeeeeeeeeeee     eeee    5eee      eeeeeeeeee     eeee           ",
+			"  eeeeeee5          eeeeeee        eee#    eeee    eeee     eee9    eeee    eeee       eeeeeeee       eeee    Xeee        5eeeeeee     eeee           ",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"                            eeeeeeeeeeez                     eeeeeeeeeeeX                        eeeeeeeuee9                  ", 
+			"                            eeeeeeeeeeeeee                   eeeeeGeeeeeeee                    eeeeW  Xeeee                   ", 
+			"                              9ee       ee#                    Kee       eeD                  eee        ee                   ", 
+			"                              eee       eee                    zee       eee                 Gee         eeE                  ",
+			"                              eee       eee                    zee       eee                 ee9         uK                   ",
+			"                              eeG      eee                     zee       eey                 eeu                              ",
+			"                              eeeeeeeeeeD                      zeeeeeeeeeee                  eeu    eeeeeeeeee                ",
+			"                              eee    eee                       zeeEeeeeeK                    eez         ee                   ",
+			"                              eee     ueeD                     zee                           eee         ee                   ",
+			"                              Eee      #ee                     Wee                            eey        ee                   ",
+			"                            eKeeeue     eeeXe                e5eeey#ee                        5eeeK    Deee                   ",
+			"                            eeeeeee5    eeeee                eeeeeeeee                          eeeeeeeeEee                   ",
+			
+	};
+	
+	
+	
+	@Override
+	public void run() {
+	
+		for(int i =0 ; i<Intro.length ; i++)
+		{
+			System.out.print(Intro[i]);
+				
+			try {
+							
+				Thread.sleep(100);
+			} catch (Exception e) {
+				System.out.println("오류가 발생했습니다 : "+e.getMessage());
+			}
+			
+		}
+		
+	}
+
+}

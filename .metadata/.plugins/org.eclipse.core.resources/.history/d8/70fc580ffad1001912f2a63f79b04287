@@ -1,0 +1,46 @@
+package 클래스;
+
+public class MyThread extends Thread {
+
+	
+	
+	
+	
+	@Override
+	public void run() {
+	
+			
+			try {
+				System.out.println		("                                                                                                    "); 
+				System.out.println		("       EeeeeeW                                                                                      "); 
+				System.out.println		("     #eeD  uGK                                                                                      "); 
+				System.out.println		("     EeE       ee#   Dee  eGyueeE  yeeE  5e# #eeX  EeeX     9eeez   WeE Xee9     Deee5   eeW ee     "); 
+				System.out.println		("      GeeeX    eeE   zee  eee9Deeeeezeee yeeezDeeee#Deee  GeeDXGee9 Keee9zeee  WeeK Wee  eeeeee     "); 
+				System.out.println		("        Xeeee  eez   5ee  ee#   Eey   9e Kee   DGe   ,ee  ee     ee  ee    Ge  ee5   eez eeE        "); 
+				System.out.println		("           #eG eeD   yee  eeX   9eW   Ee uee   5ee    ee  eE     ee  ee    ee  ee559zyX, eeX        "); 
+				System.out.println		("    ,e9,  uee9 Gee  Weee  ee#   ee5   ee Wee   Dee   ,ee  eeE   Gee uee    eeu EeG    u  eez        "); 
+				System.out.println		("     eeeeeeeX   GeeeeXee  ee#  ,eeX   ee Xee   #ee   Kee   #eeeee5  yee,   eey  Deeeeee  ee#        "); 
+				System.out.println		("                                                                                                    "); 
+				System.out.println		("                                                                                                    "); 
+				System.out.println		("                                                                                                    "); 
+				System.out.println		("                                                                                                    "); 
+				System.out.println		("                                                                                                    "); 
+				System.out.println		("                             Eeeeeez,         eeeeee#,            9eeeeeX                           "); 
+				System.out.println		("                             eeE Xeeee        eeGKzGeee        XeeeEXX#eG,                          "); 
+				System.out.println		("                             Gey   uee        eeX   ueeu      5eeK                                  "); 
+				System.out.println		("                             GeX  yeez        ee5   9ee       eeX   ,   ,                           "); 
+				System.out.println		("                             Geeeeey          eeeeeeee        ee5  DeeeeeK                          "); 
+				System.out.println		("                             GeK  EeG         eeD             EeE      Ee                           "); 
+				System.out.println		("                             ee#   9ee        ee#              eee5   uee,                          "); 
+				System.out.println		("                             eee    Eeey      eee               5eeeeeeee,						  ");
+				
+				Thread.sleep(1000);
+			} catch (Exception e) {
+				System.out.println("오류가 발생했습니다 : "+e.getMessage());
+			}
+			
+		
+		
+	}
+
+}

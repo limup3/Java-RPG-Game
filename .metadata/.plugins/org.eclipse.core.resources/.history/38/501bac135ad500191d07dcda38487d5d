@@ -1,0 +1,57 @@
+package 클래스;
+
+public class 연습 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println(""
+				+ "                              yKK                 \r\n" + 
+				"                           Keeeeeee99             \r\n" + 
+				"                          9e9XXXXEDeGe            \r\n" + 
+				"                          eE9eeE9eXe#ee           \r\n" + 
+				"                          eG9E ez#euEGe     e     \r\n" + 
+				"                         XEee    ee  eee  ee      \r\n" + 
+				"                         ee99 zuuGeDz eeEeeW      \r\n" + 
+				"                        Kee9e #DeEe    G9G        \r\n" + 
+				"                        ee  5eeE5E9ee EezeE       \r\n" + 
+				"                       ee# XeDyyDeXz9eD  Deeu     \r\n" + 
+				"                      eeXEzzeEEeeez9e      eee    \r\n" + 
+				"                     eGe e ,eX5eD Ee#e      eee   \r\n" + 
+				"                    eEey e yzDDe e eeeG u    eeez \r\n" + 
+				"                   XeXe  e eeEzee  Xy   5     e9e \r\n" + 
+				"                   e9De e9   eeeeey D5eD      GezE\r\n" + 
+				"                   eDXe,e ye EXX#    u         e5G\r\n" + 
+				"                   eDz 9  ee XD  ,ee   y      Keze\r\n" + 
+				"                   e9G ee#eeeee 9eeWeeuy      e ee\r\n" + 
+				"                   #eeeeeeGGEeeeeeeeeeX u       e \r\n" + 
+				"                    eyeeeeeeeeeuKy   W  #      9e \r\n" + 
+				"                      X     ,  WeDX   Ee#      e  \r\n" + 
+				"                    We5,eeeeeee  e                \r\n" + 
+				"                   ee   9Wu,5u   e                \r\n" + 
+				"                  eG    DX5W#W# KW                \r\n" + 
+				"                ,eK      95W#KXDe                 \r\n" + 
+				"              Wee        EXWDKWz9                 \r\n" + 
+				"            5zeee        u#WDWWEu                 \r\n" + 
+				"              eee         GDXy5#e                 \r\n" + 
+				"           #eee5K          EW#5 E                 \r\n" + 
+				"       uGeeee              #XX5ueu                \r\n" + 
+				"     ueezKuu                9XyDK         X,      \r\n" + 
+				" W9ee 5 ,ee9                XWKKe       #eK       \r\n" + 
+				"Weeee  y eeeeW             Wez  eW X#eeeW         \r\n" + 
+				"   eeee# KXeeeeeeeDeeeeeGEGe9eeeGeeeee            \r\n" + 
+				"      XeGz#X59eGeeezEeeGEEe#eED#zeeW              \r\n" + 
+				"         WzeeeEGEX9eGeyGeeeeeWeeGz                \r\n" + 
+				"              uuKKuW#yXzWuu, ,K5z                 \r\n" + 
+				"                              uK#5                \r\n" + 
+				"                            eeezeE                \r\n" + 
+				"                           K  5ee                 \r\n" + 
+				"                          9eEe9                   \r\n" + 
+				"");
+		
+}
+	public static void clearScreen() {
+		for (int i = 0; i < 80; i++)
+			System.out.println("");
+	}
+}

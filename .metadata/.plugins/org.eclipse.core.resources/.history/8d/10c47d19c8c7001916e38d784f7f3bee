@@ -1,0 +1,119 @@
+package 자바3주차;
+
+import java.util.Scanner;
+
+public class 별그리기완성본 {
+
+	public static void main(String[] args) {
+		
+		System.out.println("별의 크기를 정수로 입력하세요 .");
+		System.out.print("입력 : ");
+		
+		Scanner sc = new Scanner(System.in);
+		
+		String Star = sc.nextLine();
+		
+		int Star_Num = Integer.parseInt(Star); //Star = 별
+	
+
+		for(int H_First=0; H_First<Star_Num+3; H_First++) //Star의 머리부분 Head_First
+		{
+			for(int H_Second=Star_Num+2; H_Second>H_First; H_Second--) //Head_First for문의 중첩포문 Head_Second
+			{
+				System.out.print("  ");
+			}
+			for(int H_Third=0; H_Third<H_First; H_Third++) // Third
+			{
+				if(H_Third!=Star_Num+3)						// 중첩for문 Third가 Num+3이 아닐시 공백 출력 , 가로 +3 세로 -1을 표현하기위해 사용 (가로표현)
+				System.out.print("  ");
+			}
+			for(int H_Four=Star_Num+3; H_Four>H_First; H_Four--) //Four
+			{
+				
+				if(H_Four!=H_First+1)							// Four이 First+1이 아닐시 공백 출력 , 가로 +3 세로 -1을 표현하기위해 사용 (세로 표현)
+				{
+					System.out.print(" "); 
+				}
+			}
+			for(int H_Five=0; H_Five<H_First ; H_Five++)  // Five
+			{
+				System.out.print("aa");
+			}
+			if(H_First==0)	//꼭대기 하나 출력하기 위해서 if문 사용
+			{
+				System.out.print("a");
+			}
+			System.out.println("");
+		}
+		
+		for(int B_First = 0 ; B_First<Star_Num+2 ; B_First++) //Star의 몸통부분 Body_First
+		{	
+			
+			for(int B_Second = 0 ; B_Second<B_First ; B_Second++) // Second 공백표현
+			{
+				System.out.print(" ");
+			}
+			for(int B_Third= 0; B_Third<B_First; B_Third++) // Third
+			{
+				if(B_First!=0) //B_First가 0이 아닐때 "aaaa"  가로 +3 세로 +2 출력하기위해 사용
+				{
+					System.out.print("aaaa");	
+				}
+			}		
+			for(int B_Four = Star_Num+2; B_Four>B_First ; B_Four--) // Four
+			{
+				System.out.print("aaaaaa");
+								
+			}
+
+			System.out.println("");
+	}
+		for(int BB_First = 0 ; BB_First<Star_Num+1 ; BB_First++) //몸통 뒤에부분 Body Behind_First
+		{	
+			
+			for(int BB_Second = Star_Num ; BB_Second>BB_First ; BB_Second--) //Second
+			{
+				System.out.print(" ");
+			}
+			for(int BB_Third= Star_Num; BB_Third>BB_First; BB_Third--) //Third
+			{
+				if(BB_First!=Star_Num) //BB_First!가 Star_Num이 아닐때 "aaaa"출력 
+				{
+					System.out.print("aaaa");	
+				}
+				
+			}		
+			for(int BB_Four = 0; BB_Four<=BB_First+1 ; BB_Four++) //Four
+			{
+				System.out.print("aaaaaa");
+								
+			}
+
+			System.out.println("");
+	}
+
+		for(int F=0; F<Star_Num+3; F++) //다리
+		{
+			for(int I=Star_Num+2; I>F; I--)
+			{
+				System.out.print("  ");
+			}
+			for(int U=0 ; U<F; U++)
+			{
+				System.out.print("   ");
+			}
+		
+			for(int E=Star_Num+2; E>F ; E--)
+			{
+				System.out.print("aa");
+			}
+			if(F==Star_Num+2)
+			{
+				System.out.print("a");
+			}
+			System.out.println("");
+		}
+		
+	}
+
+}

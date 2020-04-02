@@ -1,0 +1,181 @@
+package 클래스;
+
+public class 연습 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(""
+				+ "                            WXDXDW                     \r\n" + 
+				"     ,                   EeeXK K5KeeE                  \r\n" + 
+				"   ,,                    e uuWu zy5XKe5   yu    z      \r\n" + 
+				"  ,                 ,  y#eue#WXKDe u,DeG9EeDeeee9e#W   \r\n" + 
+				",,       eGGee#       eeyD#5Xe99eX,9WWeDe   u W#  Xe   \r\n" + 
+				"      zeuEy  e e X9#9#e  EEyEzeu WKe, eWz Wu5   WeWX   \r\n" + 
+				"  WWy ee zeuue e  uX eWED yK  WW DD,K 9eeeEyeeeee      \r\n" + 
+				",eeeeGeeeeeeeeeEeeEX e  EGGeEeW5ee5KW,,E   u           \r\n" + 
+				"      e,      ue   59G Wy,   uyyW ,uu5 ee9             \r\n" + 
+				"     eueeeee##eze9z  e    uuuu,KKuWE  e5,We5           \r\n" + 
+				"     eeezuXD9EGee u eeee   uu,,XK uuzee KKuee          \r\n" + 
+				"   eeDe#  ,XyzXee  #euE#eD      5eeezeK uKKuEe         \r\n" + 
+				"   eDzeeeeeeeeey  eXXeXeGeeeeeeeeyzueD, uWW5ueD        \r\n" + 
+				"   e9ze       e yez  ee    5e,e,9Geeu5e ,KKKW e        \r\n" + 
+				"  59e# eX uuKGyKuWeeeDWeW e GXeee5u u5eE , uK,Ee       \r\n" + 
+				"  De e zeuuKKuKKDe5XWuG KueKeey     ,Ezez , WK 9e      \r\n" + 
+				"   DeG  eeeeeeeDe, uuuyzeK# uKEeeEWyGeWWeGzE#D,ey      \r\n" + 
+				"               eD KWWK,Gu,KKKu ,K#ee#XyDe  uuyu e      \r\n" + 
+				"               eE ,  u K ,KWWWWWKu5Wu55e  KKuWy e      \r\n" + 
+				"              #ee9WeGGeeeD,KyyyWWuWX,eXe        ee     \r\n" + 
+				"               e ezDeXyGzze KWKKu Wy eeE5z9DD#Eeeeeez  \r\n" + 
+				"              e#Ge e    e e ,,uuKW9D ez 5eeeeeeee9eGe  \r\n" + 
+				"             eeXWe e    e eEGeGeeGGe9eeX z99##9zeeeXe  \r\n" + 
+				"             e#zXe5DeK De e uuuuuuuu  e #eEeee95e EzeE \r\n" + 
+				"     ,       eEDXXeeDEGXDeeEeGGEEE99Ee,,   u y  e Wee9 \r\n" + 
+				"   ,,        eKWWKWyDeDD#59EE#zDDDDXXeee  , u  Ge      \r\n" + 
+				" ,,          eeeeeeWWD9WK5yy5XXDDDXyEze9  E eeee       \r\n" + 
+				",               eKEe5y5DGG9EzDDDDDXzeyuKEeeee          \r\n" + 
+				"                9euKee5WKKyW5XXXDDXDDGu#eeeee          \r\n" + 
+				"                 EeDy5eee9e#ezyWyyyWueGe   e           \r\n" + 
+				"                  e   u,yue  #eeeeeeeXue               \r\n" + 
+				"                   eXDze,,,e  e     yXXKe              \r\n" + 
+				"                   eyK,eyuue  #eEzyEWGu ey             \r\n" + 
+				"                   eyyWuX e     eKWKK59 e              \r\n" + 
+				"                XGee 5WK5e9      eeW55yXe              \r\n" + 
+				"              5e5uy,W KKW e      euK,K  e              \r\n" + 
+				"           eeeeee5  KKzyKye#    eK W 9 WGu             \r\n" + 
+				"            ,eeW#eeeeeDEee9    5e  5 , y,e             \r\n" + 
+				"               z9u            zeeeee ez#Kee            \r\n" + 
+				"                               Dyy,eeWzEWWu            \r\n" + 
+				"");
+		
+		
+System.out.println(""
+		+ "                                                                      \r\n" + 
+		"                    ,                                        ,        \r\n" + 
+		"    ,                ,,                                       ,,      \r\n" + 
+		"     ,     Keeeez     ,,,                KXWW                   ,,    \r\n" + 
+		"  , ,     zzXKy eGu     ,,,            yez5KDG5                  ,,,  \r\n" + 
+		"          ey5W9,e5eE      ,            eu,uKuu9u                      \r\n" + 
+		"          euW5uyz,DXe#               ye#,5#zWyzD                      \r\n" + 
+		"         DEXzK5 D5WWXDez    u5Xu,#EEeW9, W,W##e                       \r\n" + 
+		"          X9uzu#5uX5WWWDeE5eXW5W#Du,u5uuXeDyKED                       \r\n" + 
+		"            De9eDEE#9E#yXKE E,Ku#,XzWKKuuzW#Ee                        \r\n" + 
+		"               e,e ,  eK9ueX9,KyDyuuXKWKz5#K,eK                       \r\n" + 
+		"               e,#     GeDGE9e#KW, uKKWKu,W5yDy                       \r\n" + 
+		"               #,G       yuD  5W eEDWKWWWWuWuu9u                      \r\n" + 
+		",               Ge               EuuXWKKKK5WK#W#u                     \r\n" + 
+		" ,,              ey              9KuKK5uXuuu5u#W9            ,   ,    \r\n" + 
+		"  ,,,             e  ,   ,        e5KKK99KWWuyDK9                 ,   \r\n" + 
+		"    ,,             u    ,         z5K5uuuKWWKKuuze#XK    ,            \r\n" + 
+		"                                 XyKuXDKKKKWWWWKuW9,K5#9EDe           \r\n" + 
+		"                                 zKKKD,u5DKWWWWWKuKeEEeXu99eK         \r\n" + 
+		"                                 e ,, 5X5KKWWWWWK5u5   eXe#e          \r\n" + 
+		"                                 eeG#XKK  ,,,uuu,W ,D    X#           \r\n" + 
+		"                                #  KXXeE##zzX55XX5X5eX                \r\n" + 
+		"                                euKKu uEKXWXzXDXXXE5E5                \r\n" + 
+		"                                euWWWK DDWKWyyyyyyWKG#                \r\n" + 
+		"                                GuWWWWK De#W55555yW9uue               \r\n" + 
+		"                    ,,         eKKWWWKKWy euWyyyWWWe uWe     ,,       \r\n" + 
+		"                     ,,,      EWKWWWW5y5,XDeXzyzWzeWuWKWe     ,,,     \r\n" + 
+		"     ,                 ,,     euWWWWWyKKyD #zz5Eye5 KWWKy9      ,,    \r\n" + 
+		"   ,                     ,u   euWWWWWKK5e   ue#9 EEuWWWWue        ,u  \r\n" + 
+		"                              euKKWWKW#E     W e  yWKWKK,e            \r\n" + 
+		"                              eyDKWWue            X#yWKzue,           \r\n" + 
+		"                             Xz,KKWW,e           eWKKWKKKD            \r\n" + 
+		"                              GuWWWKue          eWKWWWKWe             \r\n" + 
+		"                              e,WWKWEu          EuWWKKXe              \r\n" + 
+		"                              e,KWKE          WG5uKKyGD               \r\n" + 
+		"                             eyWuXuX         eyuEuKD,                 \r\n" + 
+		"                           zzyyWX5ye         eKWWyy5eeG               \r\n" + 
+		",,                        zeXuKW9Xy      ,   KXDW5De5KEe              \r\n" + 
+		"  ,,                ,       XeGe          ,,        ,uu5     ,    ,   \r\n" + 
+		"   ,,,                ,  ,                  ,,                 ,  ,   \r\n" + 
+		"     ,,                 ,                    ,,                 ,     \r\n" + 
+		"                                                                      \r\n" + 
+		"");
+
+System.out.println(""
+		+ "                                                                           \r\n" + 
+		"                        ,                                         u        \r\n" + 
+		"   ,  ,                                      ,  ,,                ,,,      \r\n" + 
+		"  ,                       9zE9eDW                 ,                 ,,     \r\n" + 
+		"     , ,                E9yWyuK5#eEGeeGG#DDzzD                        ,,,  \r\n" + 
+		"                       eyyWWKXXKKKE,XXuWWyyyy5eG                       ,,  \r\n" + 
+		"                      e5KWWWDuWuKuuDKKKWKKWWWKKX9                          \r\n" + 
+		"                      eWKXWKK,y5zKKKKKuWKzuKWWWue                          \r\n" + 
+		"                    DeD,KKuuXXGz ,W,WWGXuK9XuKW,e                          \r\n" + 
+		"                   GXuG,yyuz  D We#KeKuKWuuyzyKuGu                         \r\n" + 
+		"                  5#KuW#K#E#eDXuXXz X5uuGuKKuuW5KDe                        \r\n" + 
+		"                  euKWu,e  u Xu #ze W9u,#XWW5DuuK,e                        \r\n" + 
+		"                  eWWK5W5e 5yKzeWyK #5K,G WWKK#uDKe                        \r\n" + 
+		"                 EKXKWWKu,XEDEyKuuz#KKW,e,WWWW5Xuue                        \r\n" + 
+		"  ,,             e,KKWWWWuz#5u5zzXuKKWK 9 KWWuuXKEK                ,       \r\n" + 
+		"    ,,           e 55WWKWy  y5Ky5u5WKK,9y9,KWWKuXz                ,    ,   \r\n" + 
+		"     ,,,         e EuWWWuK9,WuK,WWyWKXzX ##y5WWKG                      ,   \r\n" + 
+		"       ,,        e,DKKWWWKKEuKEEKWXDDWu EWuKWKKuX  ,                 ,     \r\n" + 
+		"                  e,9KWWWW,GX#uuKWKuKKuDXuWWWuDX#,                         \r\n" + 
+		"                  DDKKWWWKWX uKKKKKKu ,9uKWWWu#GK5GEz5                     \r\n" + 
+		"                   euuWW5KWGu   XW uz9e KWWWu DzuKKWy59e9                  \r\n" + 
+		"               yGeXue,KKWKKuzeG##EGG5Ke WWW,uGyuKWWWWWKKWeX                \r\n" + 
+		"              e5KKKuDzuuGKWKu 59zyWD5y#,WWuKe uWWWWWWWWWKK#X               \r\n" + 
+		"             W#uWWWKuzz yuWWWK,WEXWyyGuuWuu9# WWWWWWWWWWWKu95              \r\n" + 
+		"             yDXWWWWKKKE#uuKKWKuKEyy#z,WK eWE KuuuuuuKWWWWD#e              \r\n" + 
+		"             yyKWWWWWWu,,#DDWKKu W9Eu uWuDGWeWEeeee9XXWWWKKu59             \r\n" + 
+		"             yzKWWWWWWuGyXDGeDzX9uKXy5 , uXDy      eKWWWWWWuDX    u        \r\n" + 
+		"  ,   ,,      euWWWWWWueuK    E, KyEKe,D#zEe     , eKKWWWWWue     ,,,      \r\n" + 
+		"  , ,         e,WWWWWKyD      ED#9D5G5XXee          eWKKuKWuE       ,,     \r\n" + 
+		"     , ,    Xye,KWWKu e    XEGXXXzeee#ee #     , ,   EzWeuWKzGy,      ,,,  \r\n" + 
+		"         KEezWKWzWu5##eEee9z5Xze5y  z u9              5,9uWK5Dye5       ,  \r\n" + 
+		"       uu#uu,uyWu,WGKWX55KKXX#e                       e,KKWWWyKy5EGe       \r\n" + 
+		"      ueEEe,euy5zEeuuy Euy5GeK                        eyyyy55yWWWX#e       \r\n" + 
+		"        uW#De9#Wy uGuXye 9Gu                           5D##5Wy#99yuX       \r\n" + 
+		"                   e5X5e#e                                                 \r\n" + 
+		"                    zzXWey5                                                \r\n" + 
+		"                         Ge                                                \r\n" + 
+		"                          zeX                                              \r\n" + 
+		"   u                                         ,                             \r\n" + 
+		"   ,,,                                       ,,                    ,       \r\n" + 
+		"     ,,                      ,                 ,,                      ,   \r\n" + 
+		"");
+
+System.out.println(""
+		+ "                                                                    \r\n" + 
+		"                                                                    \r\n" + 
+		"                                       #                            \r\n" + 
+		"                                      eee5E                         \r\n" + 
+		"                                    K     D9                        \r\n" + 
+		"                                  u ee  95yX9e                      \r\n" + 
+		"                             K##WW5  # EezGEeX        e#E           \r\n" + 
+		"                            Ee  ,u ,XeeE ee#  yeez ,  5XeeDEee      \r\n" + 
+		"                            z      ,5 ,zXzK  Geeee ,  G eez,ee      \r\n" + 
+		"                          9ey uu Deee9 y   5eeeeez  KEG       5E#u  \r\n" + 
+		"                          eeX,yW DeeeeDGeeeeeeE#99D   yXK zee#eW    \r\n" + 
+		"                        Key eeee  eeeeEeeeeeGeeeeeeW 9e z# 9X,e#    \r\n" + 
+		"                      KeDDK  ueE,      Eeeeez9eyeWX 9#yXe  K  Weeee5\r\n" + 
+		"                     5WX yXeeEeEy5,  W   u,         9eKXe zX9eee#K  \r\n" + 
+		"                   XX9 ,WEyyX eGeezy5z,      uyeeeeG DEeeeGuXy      \r\n" + 
+		"                    Keey     ze#zeeeeGG9zXy5zeee##e,EG ,DK Xe       \r\n" + 
+		"                     ee e#zeee9X,    u5eeeeee#X5X9e  e5    euE      \r\n" + 
+		"                     EXGeeeeXeyEGz55u      WuK5#zXe   eE99ueee#y    \r\n" + 
+		"                     KK ,5e  eX5u, WG#DXyKuKXDXyXzeX  eeez    EeK   \r\n" + 
+		"                    zeeeyee eeWWu,  ,   ,5zDXWW5#Gee  e #D  5E5  ED,\r\n" + 
+		"         K         ueeeXee  XeW5XyKX, u   K555zEEzEe  zeyK     yeeK \r\n" + 
+		"          e       eee K      eDWuXEE9zX5yWK5KzEEXyGe   D5yW  EGue#  \r\n" + 
+		"      DX  Xeeeeeeeee         eez5 5u  uKKWWy59DXyue    #e5yeeeeDyu  \r\n" + 
+		"    y  Ee eeEEeze9E          95GEz9yWWWKKW5D#DW  ee     e 9#eG5uz   \r\n" + 
+		"    We  eeeEeD##eee          WKeXz,9EE##9E9y u,eeeu     eEK    WX   \r\n" + 
+		"     #eeeeDX#9eX#eeeeX,     e ee z,  ,     Xeeeeze,     eKe9# uWe   \r\n" + 
+		"    eeE9XG9eX5eeee,        W  ee eeee,eee#eee95 ,       eee eX5eK   \r\n" + 
+		" Eee9XWDGzzGe9eEeK          ,  5 eeEG eee#    Du9e      KE  eeEu    \r\n" + 
+		" eGy5XuXXXDzeeE  95          uK  9eeeDeeeX 5XGD #E         Xe       \r\n" + 
+		" eeeeGzW5yGeee9G            5e9D ueeD   uDeeDXyu  9                 \r\n" + 
+		"  ueeeee9eee  Eey          eeDuuWXEz     ,     ,,DX                 \r\n" + 
+		"      eeeeeeu   K        Eee5y zD9ee      eD    WK                  \r\n" + 
+		"            e            5eeX,ED XeW     ee5E9z#ez                  \r\n" + 
+		"                           eeeeeDeE     eeX,KXe eW                  \r\n" + 
+		"                             XEe      G9#G yKy# e                   \r\n" + 
+		"                                     5ee9X z EyXe                   \r\n" + 
+		"                                      #eeeeeeeeey                   \r\n" + 
+		"                                         ,E5X5u                     \r\n" + 
+		"");
+}
+}

@@ -1,0 +1,22 @@
+package 자바3주차;
+
+public class 연습4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int num=2;
+		for(int O=0; O<num+3; O++)
+		{
+			for(int I=num+2; I>O; I--)
+			{
+				System.out.print("  ");
+			}
+			for(int U=0 ; U<O; U++)
+			{
+				System.out.print("   ");
+			}
+			System.out.println("");
+		}
+	}
+
+}

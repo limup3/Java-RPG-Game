@@ -1,0 +1,53 @@
+package 클래스;
+
+public class MyThread extends Thread {
+
+	String test[] = {
+			"                                                                                                    ", 
+			"       EeeeeeW                                                                                      ", 
+			"     #eeD  uGK                                                                                      ", 
+			"     EeE       ee#   Dee  eGyueeE  yeeE  5e# #eeX  EeeX     9eeez   WeE Xee9     Deee5   eeW ee     ", 
+			"      GeeeX    eeE   zee  eee9Deeeeezeee yeeezDeeee#Deee  GeeDXGee9 Keee9zeee  WeeK Wee  eeeeee     ", 
+			"        Xeeee  eez   5ee  ee#   Eey   9e Kee   DGe   ,ee  ee     ee  ee    Ge  ee5   eez eeE        ", 
+			"           #eG eeD   yee  eeX   9eW   Ee uee   5ee    ee  eE     ee  ee    ee  ee559zyX, eeX        ", 
+			"    ,e9,  uee9 Gee  Weee  ee#   ee5   ee Wee   Dee   ,ee  eeE   Gee uee    eeu EeG    u  eez        ", 
+			"     eeeeeeeX   GeeeeXee  ee#  ,eeX   ee Xee   #ee   Kee   #eeeee5  yee,   eey  Deeeeee  ee#        ", 
+			"                                                                                                    ", 
+			"                                                                                                    ", 
+			"                                                                                                    ", 
+			"                                                                                                    ", 
+			"                                                                                                    ", 
+			"                             Eeeeeez,         eeeeee#,            9eeeeeX                           ", 
+			"                             eeE Xeeee        eeGKzGeee        XeeeEXX#eG,                          ", 
+			"                             Gey   uee        eeX   ueeu      5eeK                                  ", 
+			"                             GeX  yeez        ee5   9ee       eeX   ,   ,                           ", 
+			"                             Geeeeey          eeeeeeee        ee5  DeeeeeK                          ", 
+			"                             GeK  EeG         eeD             EeE      Ee                           ", 
+			"                             ee#   9ee        ee#              eee5   uee,                          ", 
+			"                             eee    Eeey      eee               5eeeeeeee,			     "
+			
+	};
+	
+	
+	
+	@Override
+	public void run() {
+	
+		for(int i =0 ; i<test.length ; i++)
+		{
+			System.out.println(test[i]);
+		
+			
+			try {
+				
+				
+				Thread.sleep(100);
+			} catch (Exception e) {
+				System.out.println("오류가 발생했습니다 : "+e.getMessage());
+			}
+			
+		}
+		
+	}
+
+}

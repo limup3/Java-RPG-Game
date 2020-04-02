@@ -1,0 +1,164 @@
+package 클래스연습;
+
+import java.util.Scanner;
+
+public class 연습 {
+
+	public static void main(String[] args) {
+		System.out.println("");
+		System.out.println("------------------------------------------");
+		System.out.println("------------------------------------------");	
+		System.out.println("");
+		System.out.println("시험의 탑 5층");
+		System.out.println("");
+		System.out.println("드디어 마지막 5층까지 오셨군요!!");
+		System.out.println(">>최종보스입니다.");
+		System.out.println(">>최종보스를 해치우면 원래살던세계로 돌아갈수있어요!!");
+		
+		FinalBoss finalBoss = new FinalBoss();//중간보스 클래스 불러오기
+
+		System.out.println("");
+		System.out.println("드래곤 등장!!");
+		System.out.println("");
+		finalBoss.Dragon();
+		System.out.println("");
+		System.out.println("######################");
+
+		while(true) { //전투 반복
+			System.out.println("1. 공격하기 / 2. 1차 스킬 사용 / 3. 2차 스킬 사용");
+			int Batlle_Dragon = scan.nextInt();
+			if(Batlle_Dragon == 1)
+			{	System.out.println("");
+				System.out.println(creature.Name+"의 공격입니다.");
+				finalBoss.Attacked_Dragon(knight.Attack());
+				System.out.println("드래곤 체력 : "+finalBoss.Hp);
+
+				//몬스터의 체력이 0보다 작거나 같은 경우				
+				if(finalBoss.Hp<=0)
+				{	
+					System.out.println("");
+					System.out.println("드래곤가 죽었습니다.");
+					System.out.println("몬스터골드"+finalBoss.Gold+"를 획득하셨습니다.");
+					knight.Gold+=finalBoss.Gold;
+					break;
+				}
+				System.out.println("");
+				System.out.println("드래곤의 공격입니다.");
+				knight.Attacked(finalBoss.Attack());
+				System.out.println(creature.Name+" 체력 : "+knight.Hp);
+				if(knight.Hp <=0)
+				{	System.out.println("");
+					System.out.println(creature.Name+"가 죽었습니다.");
+					//영웅체력 1로 만든다.
+					knight.Hp = 1;
+					System.out.println(creature.Name+"이 체력 1로 부활하였습니다.");
+					break;
+				}
+			}
+			else if(Batlle_Dragon == 2)
+				
+			{	System.out.println("");
+			System.out.println(creature.Name+"의 공격입니다.");
+			finalBoss.Attacked_Dragon(knight.Skill());
+			System.out.println("드래곤 체력 : "+finalBoss.Hp);
+
+			//몬스터의 체력이 0보다 작거나 같은 경우				
+			if(finalBoss.Hp<=0)
+			{	
+				System.out.println("");
+				System.out.println("드래곤가 죽었습니다.");
+				System.out.println("몬스터골드"+finalBoss.Gold+"를 획득하셨습니다.");
+				knight.Gold+=finalBoss.Gold;
+				break;
+			}
+			System.out.println("");
+			System.out.println("드래곤의 공격입니다.");
+			knight.Attacked(finalBoss.Attack());
+			System.out.println(creature.Name+" 체력 : "+knight.Hp);
+			if(knight.Hp <=0)
+			{	System.out.println("");
+				System.out.println(creature.Name+"가 죽었습니다.");
+				//영웅체력 1로 만든다.
+				knight.Hp = 1;
+				System.out.println(creature.Name+"이 체력 1로 부활하였습니다.");
+				break;
+			}
+		}
+			else if(Batlle_Dragon == 3)
+				
+			{	System.out.println("");
+			System.out.println(creature.Name+"의 공격입니다.");
+			finalBoss.Attacked_Dragon(knight.Skill2());
+			System.out.println("드래곤 체력 : "+finalBoss.Hp);
+
+			//몬스터의 체력이 0보다 작거나 같은 경우				
+			if(finalBoss.Hp<=0)
+			{	
+				System.out.println("");
+				System.out.println("드래곤가 죽었습니다.");
+				System.out.println("몬스터골드"+finalBoss.Gold+"를 획득하셨습니다.");
+				knight.Gold+=finalBoss.Gold;
+				break;
+			}
+			System.out.println("");
+			System.out.println("드래곤의 공격입니다.");
+			knight.Attacked(finalBoss.Attack());
+			System.out.println(creature.Name+" 체력 : "+knight.Hp);
+			if(knight.Hp <=0)
+			{	System.out.println("");
+				System.out.println(creature.Name+"가 죽었습니다.");
+				//영웅체력 1로 만든다.
+				knight.Hp = 1;
+				System.out.println(creature.Name+"이 체력 1로 부활하였습니다.");
+				break;
+			}
+		}
+			else
+			{
+				System.out.println("잘못누르셨습니다.");
+			}
+		}
+		System.out.println();
+		System.out.println("");
+		System.out.println("------------------------------------------");
+		System.out.println("------------------------------------------");	
+		System.out.println("");
+		System.out.println("");
+		System.out.println(">> 모든층을 클리어하셨군요 !! 역시 해내실 줄 아셨어요!");
+		System.out.println(">> 이제 원래있던 세계로 돌아갑니다.");
+		System.out.println(">> 여기서 있었던 기억은 다 없어지고 시간은 그대로입니다. 평상시 처럼 생활하게 되실겁니다.\r\n" + 
+				"");
+		System.out.println("");
+		System.out.println("------------------------------------------");
+		System.out.println("------------------------------------------");	
+		System.out.println("");
+		System.out.println("");
+		System.out.println("주인공 : 뭔가 아쉬운걸 ..? 원래세계로 돌아가면 소환수를 다신 못보는데..");
+		System.out.println(creature.Name+" : ....");
+		System.out.println("주인공 : 고생했어 "+creature.Name+"야 !!");
+		System.out.println(creature.Name+" : ..!!");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("******************************************");
+		System.out.println("");
+		System.out.println("\t 게임을 플레이 해주셔서 감사합니다~!");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("******************************************");
+	}
+	
+	
+	
+	else if(Num2 == 2)
+	{
+		System.out.print("도적");
+	}
+	else if(Num2 == 3)
+	{
+		System.out.print("궁수");
+	}
+	else {
+		System.out.println("잘못누르셨습니다.");
+	}
+}
+}

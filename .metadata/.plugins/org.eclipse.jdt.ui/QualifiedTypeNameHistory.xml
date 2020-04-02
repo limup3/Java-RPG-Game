@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="study.study01"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="자바4주차.Student"/>
+<fullyQualifiedTypeName name="javax.security.auth.login.CredentialException"/>
+<fullyQualifiedTypeName name="자바4주차.Scanner"/>
+<fullyQualifiedTypeName name="자바4주차.Life"/>
+<fullyQualifiedTypeName name="자바4주차.NormalMonster"/>
+<fullyQualifiedTypeName name="자바4주차.Item"/>
+<fullyQualifiedTypeName name="자바4주차.Knight"/>
+<fullyQualifiedTypeName name="자바4주차.Monster"/>
+<fullyQualifiedTypeName name="자바4주차.MediumBoss"/>
+<fullyQualifiedTypeName name="자바4주차.NormalMonster2"/>
+<fullyQualifiedTypeName name="자바4주차.MediumBoss2"/>
+<fullyQualifiedTypeName name="자바4주차.FinalBoss"/>
+<fullyQualifiedTypeName name="자바4주차.Creature"/>
+<fullyQualifiedTypeName name="클래스.Item"/>
+<fullyQualifiedTypeName name="java.lang.Void"/>
+<fullyQualifiedTypeName name="클래스연습.Inn"/>
+<fullyQualifiedTypeName name="클래스연습.연습2"/>
+<fullyQualifiedTypeName name="클래스연습.Knight"/>
+<fullyQualifiedTypeName name="클래스연습.Monster"/>
+<fullyQualifiedTypeName name="클래스연습.Archer"/>
+<fullyQualifiedTypeName name="클래스.MediaTest"/>
+<fullyQualifiedTypeName name="클래스.MyThread.MyThread2"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="javax.sound.sampled.Clip"/>
+<fullyQualifiedTypeName name="클래스.MediaFight"/>
+<fullyQualifiedTypeName name="클래스.MediaTitle"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="클래스.motion"/>
+<fullyQualifiedTypeName name="클래스.Motion"/>
+<fullyQualifiedTypeName name="클래스.FinalBoss"/>
+<fullyQualifiedTypeName name="클래스.Knight"/>
+<fullyQualifiedTypeName name="javax.sound.sampled.FloatControl"/>
+<fullyQualifiedTypeName name="javax.sound.sampled.FloatControl.Type"/>
+<fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="클래스.MyThread"/>
+<fullyQualifiedTypeName name="클래스.MyThread2"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="클래스.Thief"/>
+<fullyQualifiedTypeName name="클래스.Archer"/>
+</qualifiedTypeNameHistroy>

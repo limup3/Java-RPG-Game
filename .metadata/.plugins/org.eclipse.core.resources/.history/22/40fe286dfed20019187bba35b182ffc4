@@ -1,0 +1,108 @@
+package 클래스;
+
+public class MyThread extends Thread {
+
+
+	
+	
+	
+	@Override
+	public void run() {
+		
+		String Intro[] = {
+				"                                                                                                                                                      ",
+				"    eeeeeeee                                                                                                                                          ",
+				"  eeeeeeeeee                                                                                                                                          ",
+				" eeeee                                                                                                                                                ",
+				" eeee            eeee     eeee       eeeeee   eeeeee          ,eeeee   eeeeee           eeeeee           eeeeee           eeeeee           eeeeee     ",
+				"  eeeeee         eeee     eeee      eeeeeeeeeeeeeeeeee       eeeeeeeeeeeeeeeeee      eeeeeeeeeeee      eeeeeeeeee       eeeeeeeeee      eeeeeeeee     ",
+				"   eeeeeeeee     eeee     eeee     eeee   eeeeee  eeee      eeee   eeeeee  eeee,    eeeeee  eeeee     eeeee  eeeee     eeee    eeee    eeeeeeeeee     ",
+				"     eeeeeeee    eeee     eeee     eeee    eeee    eeee     eeee    eeee    eeee    eeee      eeee    eeee    eeee    eeee      eeee   eeee           ",
+				"         eeeee   eeee     eeee     eeee    eeee    eeee     eeee    eeee    eeee    eeee      eeee    eeee    eeee    eeeeeeeeeeeeee   eeee           ",
+				"          eeee   eeee     eeee     eeee    eeee    eeee     eeee    eeee    eeee    eeee      eeee    eeee    eeee    eeeeeeeeeeeeee   eeee           ",
+				"          eeee   eeee     eeee     eeee    eeee    eeee     eeee    eeee    eeee    eeee      eeee    eeee    eeee    eeee             eeee           ",
+				"  ee,,eeeeeee    eeeee   eeeee     eeee    eeee    eeee     eeee    eeee    eeee    eeeee    eeeee    eeee    eeee     eeeee           eeee           ",
+				"  eeeeeeeeee,     eeeeeeeeeee      eeee    eeee    eeee     eeee    eeee    eeee     eeeeeeeeeeee     eeee    eeee      eeeeeeeeee     eeee           ",
+				"  eeeeeeee          eeeeeee        eeee    eeee    eeee     eeee    eeee    eeee       eeeeeeee       eeee    eeee        eeeeeeee     eeee           ",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"                            eeeeeeeeeeee                     eeeeeeeeeeee                        eeeeeeeeeee                  ", 
+				"                            eeeeeeeeeeeeee                   eeeeeeeeeeeeee                    eeeee  eeeee                   ", 
+				"                              eee       eee                    eee       eee                  eee        ee                   ", 
+				"                              eee       eee                    eee       eee                 eee         eee                  ",
+				"                              eee       eee                    eee       eee                 eee         ee                   ",
+				"                              eee      eee                     eee       eee                 eee                              ",
+				"                              eeeeeeeeeee                      eeeeeeeeeeee                  eee    eeeeeeeeee                ",
+				"                              eee    eee                       eeeeeeeeee                    eee         ee                   ",
+				"                              eee     eeee                     eee                           eee         ee                   ",
+				"                              eee      eee                     eee                            eee        ee                   ",
+				"                            eeeeeee     eeeee                eeeeeeeee                        eeeee    eeee                   ",
+				"                            eeeeeeee    eeeee                eeeeeeeee                          eeeeeeeeeee                   ",
+				
+		};
+		for(int i =0 ; i<Intro.length ; i++)
+		{
+			System.out.println(Intro[i]);
+				
+			try {
+							
+				Thread.sleep(100);
+			} catch (Exception e) {
+				System.out.println("오류가 발생했습니다 : "+e.getMessage());
+			}
+			
+		}
+		
+	}
+class MyThread2 extends Thread {
+	public void run() {
+		String Tutorial[] = {
+				" eeeeeeeeeeeeee                                                        eee                 eeee      ", 
+				" ee     e     ee                   ee                                  ee                    ee      ", 
+				" e     ee     ee                   ee                                   e                    ee      ", 
+				"       ee        eeee     eeee   eeeeeee      eeeeee      eee  eeeee   eee       eeeeee      ee      ", 
+				"       ee          ee       ee     ee       eee    eee    ,eeee        eee    eee    ee      ee      ", 
+				"       ee          ee       ee     ee      ee        ee    ee           e     ee      ee     ee      ", 
+				"       ee          ee       ee     ee     ee         ee    e            e       eeeeeeee     ee      ", 
+				"       ee          ee       ee     ee     ee         ee    e            e     eee     ee     ee      ", 
+				"       ee          ee       ee     ee      ee        ee    e            e    ee       ee     ee      ", 
+				"        e           ee    eeee     ee       ee     eee     e            e    ee     eeee     ee      ", 
+				"     eeeeee          eeeeee         eeeee    eeeeeee     eeeeee       eeeee,  eeeeeee eeee eeeeee    "};		
+		
+		for (int i = 0; i<Tutorial.length ; i++)
+		{
+			System.out.println(Tutorial[i]);
+			try {
+				Thread.sleep(1000);
+			} catch (Exception e) {
+				System.out.println("오류가 발생했습니다 : "+e.getMessage());
+			}
+		}
+		
+		
+	}
+}
+	
+
+}
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	

@@ -1,0 +1,56 @@
+package 클래스;
+
+import java.util.Scanner;
+
+public class 연습2 {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+
+				String Intro[] = {
+				"                                                                                                                                                      ",
+				"    eeeeeeee                                                                                                                                          ",
+				"  eeeeeeeeee                                                                                                                                          ",
+				" eeeee                                                                                                                                                ",
+				" eeee            eeee     eeee       eeeeee   eeeeee           eeeee   eeeeee           eeeeee           eeeeee           eeeeee           eeeeee     ",
+				"  eeeeee         eeee     eeee      eeeeeeeeeeeeeeeeee       eeeeeeeeeeeeeeeeee      eeeeeeeeeeee      eeeeeeeeee       eeeeeeeeee      eeeeeeeee     ",
+				"   eeeeeeeee     eeee     eeee     eeee   eeeeee  eeee      eeee   eeeeee   eeee    eeeeee  eeeee     eeeee  eeeee     eeee    eeee    eeeeeeeeee     ",
+				"     eeeeeeee    eeee     eeee     eeee    eeee    eeee     eeee    eeee    eeee    eeee      eeee    eeee    eeee    eeee      eeee   eeee           ",
+				"         eeeee   eeee     eeee     eeee    eeee    eeee     eeee    eeee    eeee    eeee      eeee    eeee    eeee    eeeeeeeeeeeeee   eeee           ",
+				"          eeee   eeee     eeee     eeee    eeee    eeee     eeee    eeee    eeee    eeee      eeee    eeee    eeee    eeeeeeeeeeeeee   eeee           ",
+				"          eeee   eeee     eeee     eeee    eeee    eeee     eeee    eeee    eeee    eeee      eeee    eeee    eeee    eeee             eeee           ",
+				"  ee,,eeeeeee    eeeee   eeeee     eeee    eeee    eeee     eeee    eeee    eeee    eeeee    eeeee    eeee    eeee     eeeee           eeee           ",
+				"  eeeeeeeeee,     eeeeeeeeeee      eeee    eeee    eeee     eeee    eeee    eeee     eeeeeeeeeeee     eeee    eeee      eeeeeeeeee     eeee           ",
+				"  eeeeeeee          eeeeeee        eeee    eeee    eeee     eeee    eeee    eeee       eeeeeeee       eeee    eeee        eeeeeeee     eeee           ",
+				"", "", "", "", "",
+				"                            eeeeeeeeeeee                     eeeeeeeeeeee                        eeeeeeeeeee                  ",
+				"                            eeeeeeeeeeeeee                   eeeeeeeeeeeeee                    eeeee  eeeee                   ",
+				"                              eee       eee                    eee       eee                  eee        ee                   ",
+				"                              eee       eee                    eee       eee                 eee         eee                  ",
+				"                              eee       eee                    eee       eee                 eee         ee                   ",
+				"                              eee      eee                     eee       eee                 eee                              ",
+				"                              eeeeeeeeeee                      eeeeeeeeeeee                  eee    eeeeeeeeee                ",
+				"                              eee    eee                       eeeeeeeeee                    eee         ee                   ",
+				"                              eee     eeee                     eee                           eee         ee                   ",
+				"                              eee      eee                     eee                            eee        ee                   ",
+				"                            eeeeeee     eeeee                eeeeeeeee                        eeeee    eeee                   ",
+				"                            eeeeeeee    eeeee                eeeeeeeee                          eeeeeeeeeee                   ",
+
+		};
+
+				System.out.println(
+						" ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄ \r\n" + 
+						"▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌\r\n" + 
+						"▐░█▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀▀▀ \r\n" + 
+						"▐░▌       ▐░▌▐░▌       ▐░▌▐░▌          \r\n" + 
+						"▐░█▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄█░▌▐░▌ ▄▄▄▄▄▄▄▄ \r\n" + 
+						"▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌▐░░░░░░░░▌\r\n" + 
+						"▐░█▀▀▀▀█░█▀▀ ▐░█▀▀▀▀▀▀▀▀▀ ▐░▌ ▀▀▀▀▀▀█░▌\r\n" + 
+						"▐░▌     ▐░▌  ▐░▌          ▐░▌       ▐░▌\r\n" + 
+						"▐░▌      ▐░▌ ▐░▌          ▐░█▄▄▄▄▄▄▄█░▌\r\n" + 
+						"▐░▌       ▐░▌▐░▌          ▐░░░░░░░░░░░▌\r\n" + 
+						" ▀         ▀  ▀            ▀▀▀▀▀▀▀▀▀▀▀ ");
+				
+}}
+

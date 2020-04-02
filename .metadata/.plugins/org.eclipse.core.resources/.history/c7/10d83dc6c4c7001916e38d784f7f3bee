@@ -1,0 +1,64 @@
+package 자바3주차;
+
+import java.util.Scanner;
+
+public class 도형과제 {
+
+	public static void main(String[] args) {
+
+		System.out.println("마름모의 크기를 정수로 입력하세요 .");
+		System.out.print("입력 : ");
+		
+		Scanner sc = new Scanner(System.in);
+		
+		String Rhombus = sc.nextLine();
+		
+		int Rhombus_Num = Integer.parseInt(Rhombus); //마름모
+		
+		Rhombus_Num+=1;
+		
+		for(int i = 0 ; i<Rhombus_Num ; i++)
+		{
+			for(int k =Rhombus_Num ; k>i; k--)
+			{
+				System.out.print(" ");
+			}
+			
+			for(int p = 0 ; p<i ; p++)
+			{
+				System.out.print(".");
+			}
+			
+			for(int j = 0 ;j<i ; j++)
+			{
+				System.out.print(".");
+			}
+			System.out.println(".");
+		}
+
+		for (int q = 0 ; q<Rhombus_Num-1 ; q++)
+		{		System.out.print(" ");
+		
+			for (int r = 0 ; r<=q ; r++)
+			{
+				System.out.print(" ");
+			}
+			for(int w = Rhombus_Num-2 ; w>q ; w--)
+			{
+				System.out.print(".");
+			}
+			for(int e = Rhombus_Num-2 ; e>q ; e--)
+			{
+				System.out.print(".");
+			}
+		
+			System.out.println(".");
+		}
+		
+		System.out.println("별의 크기를 정수로 입력하세요 .");
+		System.out.print("입력 : ");
+		
+		
+	}
+
+}

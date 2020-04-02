@@ -1,0 +1,118 @@
+package 자바3주차;
+
+import java.util.Scanner;
+
+public class 별그리기완성본 {
+
+	public static void main(String[] args) {
+		
+		System.out.println("별의 크기를 정수로 입력하세요 .");
+		System.out.print("입력 : ");
+		
+		Scanner sc = new Scanner(System.in);
+		
+		String Star = sc.nextLine();
+		
+		int Star_Num = Integer.parseInt(Star); //Star = 별
+	
+
+		for(int H_First=0; H_First<Star_Num+3; H_First++) //Star의 머리부분 Head_First
+		{
+			for(int H_Second=Star_Num+2; H_Second>H_First; H_Second--) //Head_First for문의 중첩포문 Head_Second
+			{
+				System.out.print("  ");
+			}
+			for(int H_Third=0; H_Third<H_First; H_Third++) // Third
+			{
+				
+			}
+			for(int H_Four=Star_Num+3; H_Four>H_First; H_Four--) //Four
+			{
+				
+				if(H_Four!=H_First+1)							// Four이 First+1이 아닐시 공백 출력
+				{
+					System.out.print(" "); 
+				}
+			}
+			for(int H_Five=0; H_Five<H_First ; H_Five++)  // Five
+			{
+				System.out.print("aa");
+			}
+			if(H_First==0)	//꼭대기 하나 출력하기 위해서 if문 사용
+			{
+				System.out.print("a");
+			}
+			System.out.println("");
+		}
+		
+		for(int q = 0 ; q<Star_Num+2 ; q++) //몸통
+		{	
+			
+			for(int w = 0 ; w<q ; w++)
+			{
+				System.out.print(" ");
+			}
+			for(int g= 0; g<q; g++)
+			{
+				if(q!=0) //가로 +3 세로 +2 출력
+				{
+					System.out.print("aaaa");	
+				}
+			}		
+			for(int e = Star_Num+2; e>q ; e--)
+			{
+				System.out.print("aaaaaa");
+								
+			}
+
+			System.out.println("");
+	}
+		for(int q = 0 ; q<Star_Num+1 ; q++) //몸통 뒤에부분
+		{	
+			
+			for(int w = Star_Num ; w>q ; w--)
+			{
+				System.out.print(" ");
+			}
+			for(int g= Star_Num; g>q; g--)
+			{
+				if(q!=Star_Num)
+				{
+					System.out.print("aaaa");	
+				}
+				
+			}		
+			for(int e = 0; e<=q+1 ; e++)
+			{
+				System.out.print("aaaaaa");
+								
+			}
+
+			System.out.println("");
+	}
+
+		for(int F=0; F<Star_Num+3; F++) //다리
+		{
+			for(int I=Star_Num+2; I>F; I--)
+			{
+				System.out.print("  ");
+			}
+			for(int U=0 ; U<F; U++)
+			{
+				System.out.print("   ");
+			}
+		
+			for(int E=Star_Num+2; E>F ; E--)
+			{
+				System.out.print("aa");
+			}
+			if(F==Star_Num+2)
+			{
+				System.out.print("a");
+			}
+			System.out.println("");
+		}
+		
+	}
+
+}

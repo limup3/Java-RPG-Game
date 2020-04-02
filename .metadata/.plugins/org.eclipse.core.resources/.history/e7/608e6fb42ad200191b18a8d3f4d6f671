@@ -1,0 +1,102 @@
+package 클래스;
+
+import java.util.Scanner;
+
+public class 연습2 {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+
+		
+		try {
+	
+			clearScreen();
+			System.out.println("------------------------------------------");
+			System.out.println("------------------------------------------");
+			System.out.println("");
+			System.out.println("당신은 이세계의 주인공입니다.");
+			System.out.println("시험의 탑으로 가서 1층부터 최종보스까지 클리어하세요");
+			System.out.println("자 그러면 시작합니다.");
+			System.out.println("");	
+			System.out.println("------------------------------------------");
+			System.out.println("------------------------------------------");
+			System.out.println("");
+			System.out.println("튜토리얼을 보시겠습니까?");
+			System.out.println("1. 튜토리얼을 본다. / 2. 튜토리얼을 안본다.");
+			
+			
+			} catch (Exception e) {
+				// TODO: handle exception
+			}
+			int Tutorial = scan.nextInt();
+			do {
+			
+			if(Tutorial == 1)
+			{	clearScreen();
+				System.out.println(" Xeeeeeeeeeeeee                                                        eeu                 9eee      \r\n" + 
+						" ee     e     eu                   ee                                  ee                    ee      \r\n" + 
+						" e     ue     Ey                   De                                                       ee      \r\n" + 
+						"       ue        yez#     9G#W   ezeeyee      #eeeeW     e9D  Deeee   e9#       zeeeeD       ee      \r\n" + 
+						"       ue          ee       ee     ze       eey    eeW    ,eeeX        Weu    eeD    ee      ee      \r\n" + 
+						"       ue          ee       eG     #e      ee        ey    ee           e     XK      eE     ee      \r\n" + 
+						"       ue          ee       eG     9e     ue         ee    e            e       5eeee9e#     ee      \r\n" + 
+						"       ue          ee       eG     9e     Ke         ee    e            e     eez     e#     ee      \r\n" + 
+						"       ue          9e       eE     Ee      ee        ez    e            e    ee       e#     ee      \r\n" + 
+						"        e           ee    Weee     ye       ee     Wee     e            e    Ee     Kee#     ee      \r\n" + 
+						"     Weeeee          eeeeee         eeeeD    yeeeeee     eeeeeu       eeeee,  XeeeeeG eeeX eeeee9");
+				System.out.println("");
+				System.out.println("");
+				System.out.println("");
+				System.out.println("");
+				System.out.println("");
+				System.out.println("");
+				System.out.println("▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧");
+				System.out.println("");
+				System.out.println("\t주인공이 여러 소환수중에 하나를 선택하여 육성하는 스토리 진행형 게임입니다.");
+				System.out.println("");
+				System.out.println("\t한번 클리어 한 층(시험의탑)은 다시 갈수 없습니다.");
+				System.out.println("");
+				System.out.println("\t게임의 클리어 조건은 시험의탑이라는 던전에서 1층부터 5층 최종보스를 쓰러트리면 게임이 클리어됩니다.");
+				System.out.println("");
+				System.out.println("\t게임의 패배요소로는 시험의탑 전투중 소환수 사망 , 피로도 100이 넘을때가 있습니다.");
+				System.out.println("");
+				System.out.println("\t피로도란 던전을 클리어하면 일정수치가 쌓이는데 이것을 여관에서 회복 시켜줘야됩니다.");
+				System.out.println("");
+				System.out.println("\t시험의탑에서 몬스터를 잡고 골드를 벌어 상점을 이용해 무기와 방어구를 구매하세요. ");
+				System.out.println("");
+				System.out.println("\t처음에는 스킬이 없지만 시험의탑 2층과 4층을 클리어하면 스킬을 획득할수있습니다.");
+				System.out.println("");
+				System.out.println("\t소환수를 육성하여 모든층을 클리어하세요!!");
+				System.out.println("");
+				System.out.println("▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧▧");
+				
+				break;
+			}
+			else if(Tutorial == 2)
+			{	clearScreen();
+				break;
+			}
+			else 
+			{
+			System.out.println("잘못누르셧습니다.");	
+			}
+			clearScreen();
+			}while(true);
+
+		
+		System.out.println("당신은 소환수를 고를수있습니다.");
+		System.out.println("소환수는 총 3마리입니다.");
+		System.out.println("소환수에 대한 설명을 들으시겠습니까?");
+		System.out.println("1. 듣는다 / 2. 안듣겠다.");	
+		
+//		MyThread t1 = new MyThread();
+//		t1.run();
+//		t1.run2();
+		
+}
+	public static void clearScreen() {
+	    for (int i = 0; i < 80; i++)
+	      System.out.println("");
+	  }
+}

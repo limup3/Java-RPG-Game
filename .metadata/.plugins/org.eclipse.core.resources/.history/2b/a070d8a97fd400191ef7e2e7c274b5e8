@@ -1,0 +1,105 @@
+package 클래스;
+
+import java.util.Scanner;
+
+public class 연습2 {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+
+				String Intro[] = {
+				"                                                                                                                                                      ",
+				"    eeeeeeee                                                                                                                                          ",
+				"  eeeeeeeeee                                                                                                                                          ",
+				" eeeee                                                                                                                                                ",
+				" eeee            eeee     eeee       eeeeee   eeeeee           eeeee   eeeeee           eeeeee           eeeeee           eeeeee           eeeeee     ",
+				"  eeeeee         eeee     eeee      eeeeeeeeeeeeeeeeee       eeeeeeeeeeeeeeeeee      eeeeeeeeeeee      eeeeeeeeee       eeeeeeeeee      eeeeeeeee     ",
+				"   eeeeeeeee     eeee     eeee     eeee   eeeeee  eeee      eeee   eeeeee   eeee    eeeeee  eeeee     eeeee  eeeee     eeee    eeee    eeeeeeeeee     ",
+				"     eeeeeeee    eeee     eeee     eeee    eeee    eeee     eeee    eeee    eeee    eeee      eeee    eeee    eeee    eeee      eeee   eeee           ",
+				"         eeeee   eeee     eeee     eeee    eeee    eeee     eeee    eeee    eeee    eeee      eeee    eeee    eeee    eeeeeeeeeeeeee   eeee           ",
+				"          eeee   eeee     eeee     eeee    eeee    eeee     eeee    eeee    eeee    eeee      eeee    eeee    eeee    eeeeeeeeeeeeee   eeee           ",
+				"          eeee   eeee     eeee     eeee    eeee    eeee     eeee    eeee    eeee    eeee      eeee    eeee    eeee    eeee             eeee           ",
+				"  ee,,eeeeeee    eeeee   eeeee     eeee    eeee    eeee     eeee    eeee    eeee    eeeee    eeeee    eeee    eeee     eeeee           eeee           ",
+				"  eeeeeeeeee,     eeeeeeeeeee      eeee    eeee    eeee     eeee    eeee    eeee     eeeeeeeeeeee     eeee    eeee      eeeeeeeeee     eeee           ",
+				"  eeeeeeee          eeeeeee        eeee    eeee    eeee     eeee    eeee    eeee       eeeeeeee       eeee    eeee        eeeeeeee     eeee           ",
+				"", "", "", "", "",
+				"                            eeeeeeeeeeee                     eeeeeeeeeeee                        eeeeeeeeeee                  ",
+				"                            eeeeeeeeeeeeee                   eeeeeeeeeeeeee                    eeeee  eeeee                   ",
+				"                              eee       eee                    eee       eee                  eee        ee                   ",
+				"                              eee       eee                    eee       eee                 eee         eee                  ",
+				"                              eee       eee                    eee       eee                 eee         ee                   ",
+				"                              eee      eee                     eee       eee                 eee                              ",
+				"                              eeeeeeeeeee                      eeeeeeeeeeee                  eee    eeeeeeeeee                ",
+				"                              eee    eee                       eeeeeeeeee                    eee         ee                   ",
+				"                              eee     eeee                     eee                           eee         ee                   ",
+				"                              eee      eee                     eee                            eee        ee                   ",
+				"                            eeeeeee     eeeee                eeeeeeeee                        eeeee    eeee                   ",
+				"                            eeeeeeee    eeeee                eeeeeeeee                          eeeeeeeeeee                   ",
+
+		};
+
+				System.out.println(
+						"██████╗ ██████╗  ██████╗ \r\n" + 
+						"██╔══██╗██╔══██╗██╔════╝ \r\n" + 
+						"██████╔╝██████╔╝██║  ███╗\r\n" + 
+						"██╔══██╗██╔═══╝ ██║   ██║\r\n" + 
+						"██║  ██║██║     ╚██████╔╝\r\n" + 
+						"╚═╝  ╚═╝╚═╝      ╚═════╝ ");
+				System.out.println("                                                                                                                                                                                                        \r\n" + 
+						"                             e#We                eze                                                                                                                                                    \r\n" + 
+						"                             yKKezeu           59# W                                                                                                                                                    \r\n" + 
+						"                              ue  5Xy  WGz#z  e5 XE,                                                                                                                                                    \r\n" + 
+						"                                e uu uz     uE W e                                                                                                                                                      \r\n" + 
+						"                K               e9  eeWezX5yeee #5            ue                                                                                                                                        \r\n" + 
+						"             ,  eEz              yzuuEeeXz,zzGyXe           yyX Ke                                                                                                                                      \r\n" + 
+						"             eeu 9KKyXDE5XzDDu     eX   #EXE  5,   ueDeDeeXX eyWEX                                                                                                                                      \r\n" + 
+						"              ,e  eeK,,55u,KuE99     eeeeEeeeey  ueXX     , u uG,                                                                                                                                       \r\n" + 
+						"                9X    ,,uuK   5#Key  zW      # ueyuD  u#zyu,eeu                                                                                                                                         \r\n" + 
+						"                  eezu  Ku,uD  D,Geee5XeeKzeEeee9y5  EW    yGGX                                                                                                                                         \r\n" + 
+						"                 K KD99#e y9  K DDWDD,,G  Wzz DX55 u #ezeeX                                                                                                                                             \r\n" + 
+						"                       Eze9eeeXE#XX u ez  DeD59WeeeWee  y                                                                                                                                               \r\n" + 
+						"                        u   5  5 ,E ,eee9Xe9zu55                                                                                                                                                        \r\n" + 
+						"                                 9,eee    y, ,DD                                                                                                                                                        \r\n" + 
+						"                            Xeeee,ey,  WeKWeX KWG                                                                                                                                                       \r\n" + 
+						"                         eeez9  e, W, 5e9u Ge#KWe                                                                                                                                                       \r\n" + 
+						"                      eee,    eee   e99e   X9e59X                                                                                                                                                       \r\n" + 
+						"                   Kee,   X#ee     e,,#e u Xye WK                                                                                                                                                       \r\n" + 
+						"                ueee    yeee       Gu ee , 5 eW e                                                                                                                                                       \r\n" + 
+						"             ueeeW   eeee         e   ee D # eX DW                                                                                                                                                      \r\n" + 
+						"           eee   9eeeu            eE KeeezWeeee e                                                                                                                                                       \r\n" + 
+						"         ee   Xee#                 ,ee ,D9G   Ge                                                                                                                                                        \r\n" + 
+						"       DD  eeee                     yy GEee                                                                                                                                                             \r\n" + 
+						"     eeeeeXy                          K    u                                                                                                                                                            \r\n" + 
+						"    eG                                                                                                                                                                                                  \r\n" + 
+						"             ");
+				
+				System.out.println("                                                                                                                                                                                                        \r\n" + 
+						"                             eeee                eee                                                                                                                                                    \r\n" + 
+						"                             eeeeeee           eee e                                                                                                                                                    \r\n" + 
+						"                              ee  eee  eeeee  ee eee                                                                                                                                                    \r\n" + 
+						"                                e ee ee     ee e e                                                                                                                                                      \r\n" + 
+						"                e               ee  eeeeeeeeeee ee            ee                                                                                                                                        \r\n" + 
+						"             e  eee              eeeeeeeeeeeeeeee           eee ee                                                                                                                                      \r\n" + 
+						"             eee eeeeeeeeeeeee     ee   eeee  ee   eeeeeeeee eeeee                                                                                                                                      \r\n" + 
+						"              ee  eeeeeeeeeeeeee     eeeeeeeeee  eeee     e e eee                                                                                                                                       \r\n" + 
+						"                ee    eeeee   eeeee  ee      e eeeee  eeeeeeeee                                                                                                                                         \r\n" + 
+						"                  eeee  eeeee  eeeeeeeeeeeeeeeeeeee  ee    eeee                                                                                                                                         \r\n" + 
+						"                 e eeeeee ee  e eeeeeeee  eee eeee e eeeeee                                                                                                                                             \r\n" + 
+						"                       eeeeeeeeeeee e ee  eeeeeeeeeeee  e                                                                                                                                               \r\n" + 
+						"                        e   e  e ee eeeeeeeeeeee                                                                                                                                                        \r\n" + 
+						"                                 eeeee    ee eee                                                                                                                                                        \r\n" + 
+						"                            eeeeeeeee  eeeeee eee                                                                                                                                                       \r\n" + 
+						"                         eeeee  ee ee eeee eeeeee                                                                                                                                                       \r\n" + 
+						"                      eeee    eee   eeee   eeeeee                                                                                                                                                       \r\n" + 
+						"                   eeee   eeee     eeeee e eee ee                                                                                                                                                       \r\n" + 
+						"                eeee    eeee       ee ee e e ee e                                                                                                                                                       \r\n" + 
+						"             eeeee   eeee         e   ee e e ee ee                                                                                                                                                      \r\n" + 
+						"           eee   eeeee            ee eeeeeeeeee e                                                                                                                                                       \r\n" + 
+						"         ee   eeee                 eee eeee   ee                                                                                                                                                        \r\n" + 
+						"       ee  eeee                     ee eeee                                                                                                                                                             \r\n" + 
+						"     eeeeeee                          e    e                                                                                                                                                            \r\n" + 
+						"    ee  ");
+				
+}}
+

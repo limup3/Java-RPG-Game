@@ -1,0 +1,26 @@
+package 클래스;
+
+import java.util.Scanner;
+
+public class 연습2 {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+
+		System.out.println("＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊");
+		System.out.println("로딩중");
+		for(int i = 0 ; i<20; i++)
+		{
+			
+			System.out.print("■");
+			
+			try {
+				Thread.sleep(200);
+			} catch (Exception e) {
+				// TODO: handle exception
+			}
+			
+		}
+
+}}
